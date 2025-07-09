@@ -12,6 +12,6 @@ function draw(){
     fill("magenta");
     ellipse(300,200,100,80);
 
-    fill("lightblue");
+    fill("pink");
     ellipse(300,300,100,80);
 }
