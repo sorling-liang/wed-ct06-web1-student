@@ -4,7 +4,7 @@ function setup(){
 }
 
 function draw(){
-    fill(255, 255, 100);
+    fill(255, 100, 100);
     //       x   y  width, height
     ellipse(300,100,100,80);
     
