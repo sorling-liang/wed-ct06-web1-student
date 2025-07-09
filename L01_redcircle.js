@@ -12,6 +12,6 @@ function draw(){
     fill("indigo");
     ellipse(300,200,100,80);
 
-    fill("salmon");
+    fill("purple");
     ellipse(300,300,100,80);
 }
