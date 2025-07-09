@@ -9,5 +9,5 @@ function draw(){
     
     // Todo: Challenge 3 Traffic Light
     fill("yellow");
-    ellipse()
+    ellipse(300,0,200,200);
 }
