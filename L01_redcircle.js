@@ -9,7 +9,7 @@ function draw(){
     ellipse(300,100,100,80);
     
     // Todo: Challenge 3 Traffic Light
-    fill("indigo");
+    fill("magenta");
     ellipse(300,200,100,80);
 
     fill("lightblue");
