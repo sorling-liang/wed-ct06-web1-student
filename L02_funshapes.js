@@ -11,8 +11,8 @@ function setup() {
 function draw() {
   // Challenge 1: An eye using ellipse() function
   fill("hotpink");
-  ellipse(50, 50, 50, 50);
-  
+  ellipse(50, 50, 150, 50);
+
   // Challenge 2: A face using circle() function
 
   // Challenge 3: A house using rect() function
