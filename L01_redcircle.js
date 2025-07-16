@@ -1,6 +1,6 @@
 function setup(){
     createCanvas(600, 400);
-    background(0);
+    background(220);
 }
 
 function draw(){
@@ -13,6 +13,6 @@ function draw(){
     fill("magenta");
     ellipse(300,200,100,80);
 
-    fill("pink");
+    fill("cyan");
     ellipse(300,300,100,80);
 }
