@@ -18,8 +18,8 @@ function draw() {
   fill("Lavender");
   stroke("indigo");
   strokeWeight(15);
-  circle(x, 70, 150, 70, 80, 25);
-  x = x + 20;
+  circle(x, 70, 150);
+  x = x + 1;
   // Challenge 2: A face using circle() function
 
   // Challenge 3: A house using rect() function
