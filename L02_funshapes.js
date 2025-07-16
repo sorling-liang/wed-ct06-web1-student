@@ -16,7 +16,7 @@ function draw() {
   fill("Lavender");
   stroke("indigo");
   strokeWeight(15);
-  triangle(50, 70, 150, 70, 80, 25);
+  triangle(x, 70, 150, 70, 80, 25);
   // Challenge 2: A face using circle() function
 
   // Challenge 3: A house using rect() function
