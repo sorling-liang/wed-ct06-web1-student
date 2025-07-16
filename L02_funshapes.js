@@ -1,6 +1,7 @@
 /*
 Task 1: Add the setup() function
 */
+let x = 50;
 function setup() {
   //           w     h
   createCanvas(600, 400);
