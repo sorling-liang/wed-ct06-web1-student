@@ -13,6 +13,7 @@ function draw() {
   // fill("hotpink");
   // ellipse(300, 200, 250, 180);
   fill("Lavender");
+  stroke("indigo");
   strokeWeight(3);
   triangle(50, 70, 150, 70, 80, 25);
   // Challenge 2: A face using circle() function
