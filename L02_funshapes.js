@@ -7,6 +7,7 @@ function setup() {
   background(240); // 0 to 255 gray tone
 
 }
+
 function draw() {
   // Challenge 1: An eye using ellipse() function
 
