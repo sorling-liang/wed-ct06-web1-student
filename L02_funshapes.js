@@ -10,13 +10,15 @@ function setup() {
 }
 
 function draw() {
+    background(240); // 0 to 255 gray tone
+
   // Challenge 1: An eye using ellipse() function
   // fill("hotpink");
   // ellipse(300, 200, 250, 180);
   fill("Lavender");
   stroke("indigo");
   strokeWeight(15);
-  triangle(x, 70, 150, 70, 80, 25);
+  circle(x, 70, 150, 70, 80, 25);
   x = x + 20;
   // Challenge 2: A face using circle() function
 
