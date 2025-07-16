@@ -3,6 +3,7 @@ function setup(){
     background(220);
 }
 
+// forever block
 function draw(){
     fill(255, 100, 100);
     //       x   y  width, height
