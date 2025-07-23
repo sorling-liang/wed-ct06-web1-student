@@ -26,7 +26,7 @@ function draw() {
       counter++;
 
       // Task 2: Colour Loop
-      fill(colorValue, 0, 0);
+      fill((colorValue%2)*255);
       circle(250,250, 200);
       // colorValue = colorValue +1;
       colorValue++; // shorthand
