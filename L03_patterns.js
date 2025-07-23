@@ -9,7 +9,8 @@ function setup() {
 // forever loop
 function draw() {
 
-
+  fill(colorValue);
+  circle(250,50, 200);
   colorValue = colorValue +1;
   // colorValue++;
 
