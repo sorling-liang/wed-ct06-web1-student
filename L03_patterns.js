@@ -2,7 +2,7 @@ let colorValue = 0; // start from black
 let counter = 0;
 let posX = 50;
 function setup() {
-    createCanvas(800, 400);
+    createCanvas(600, 400);
     background(220); // gray-tone
     // noLoop(); // Stops continuous drawing
   }
