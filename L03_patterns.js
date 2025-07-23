@@ -10,13 +10,13 @@ function draw() {
 
   // Recap 1: Repeating Circles
   circle(x,200, diameter);
-
   x = x + diameter + 10;
-  circle(x,200, diameter);
-  x = x + diameter + 10;
-  circle(x,200, diameter);
-  x = x + diameter + 10;
-  circle(x,200, diameter);
+  
+  // circle(x,200, diameter);
+  // x = x + diameter + 10;
+  // circle(x,200, diameter);
+  // x = x + diameter + 10;
+  // circle(x,200, diameter);
 
   // Task 1: Colour Gradient
 
