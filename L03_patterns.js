@@ -1,16 +1,16 @@
 function setup() {
-    createCanvas(600, 400);
+    createCanvas(800, 400);
     background(220);
     // noLoop(); // Stops continuous drawing
   }
   
 function draw() {
-  let diameter = 120;
+  let diameter = 10;
   let x = 75;
 
   // Recap 1: Repeating Circles
   circle(x,200, diameter);
-  
+
   x = x + diameter + 10;
   circle(x,200, diameter);
   x = x + diameter + 10;
