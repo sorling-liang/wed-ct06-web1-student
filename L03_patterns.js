@@ -1,3 +1,5 @@
+let diameter = 80;
+let x = 75;
 
 function setup() {
     createCanvas(1200, 400);
@@ -7,7 +9,6 @@ function setup() {
 
 // forever loop
 function draw() {
-
 
   // Recap 1: Repeating Circles
   for (let i=0; i<15; i++) {
