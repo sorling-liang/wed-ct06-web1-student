@@ -27,9 +27,10 @@ function draw() {
 
       // Task 2: Colour Loop
       fill((colorValue%2)*255);
-      circle(250,250, 200);
+      circle(posX,250, 200);
       // colorValue = colorValue +1;
       colorValue++; // shorthand
+      posX = posX + 100;
 
 
   // Task 3: Row of Circles
