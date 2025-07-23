@@ -12,8 +12,8 @@ function draw() {
 
   // Recap 1: Repeating Circles
   for (let i=0; i<8; i++) {
-    circle(x,200, diameter);
-    x = x + diameter + 10;
+    circle(x, 200, diameter);
+    x = x + diameter + 10; // calculate the new position of x
   }
 
 
