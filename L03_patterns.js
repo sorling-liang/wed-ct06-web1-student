@@ -13,7 +13,7 @@ function draw() {
 
   // Recap 1: Repeating Circles
   for (let i=0; i<6; i++) {
-    fill(0, i*50, 200); // rgb
+    fill(0, i*50, 200); // red,green,blue
     circle(posx, 200, diameter);
     posx = posx + diameter + 10; // calculate the new position of x
   }
