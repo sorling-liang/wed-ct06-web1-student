@@ -21,6 +21,9 @@ function draw() {
       //   posx = posx + diameter + 10; // calculate the new position of x
       // }
 
+      textSize(16);
+      text("hello", 50, 50);
+
       // Task 2: Colour Loop
       fill(colorValue, 0, 0);
       circle(250,250, 200);
