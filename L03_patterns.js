@@ -18,12 +18,6 @@ function draw() {
   }
 
 
-  // circle(x,200, diameter);
-  // x = x + diameter + 10;
-  // circle(x,200, diameter);
-  // x = x + diameter + 10;
-  // circle(x,200, diameter);
-
   // Task 1: Colour Gradient
 
   // Task 2: Colour Loop
