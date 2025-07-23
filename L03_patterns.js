@@ -5,7 +5,7 @@ function setup() {
   }
   
 function draw() {
-  let diameter = 150;
+  let diameter = 120;
   let x = 75;
 
   // Recap 1: Repeating Circles
@@ -15,7 +15,6 @@ function draw() {
   x = x + diameter + 10;
   circle(x,200, diameter);
   x = x + diameter + 10;
-
   circle(x,200, diameter);
 
   // Task 1: Colour Gradient
