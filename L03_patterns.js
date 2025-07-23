@@ -9,6 +9,7 @@ function draw() {
 
   // Recap 1: Repeating Circles
   circle(75,200, diameter);
+  circle(225,200, diameter);
 
   // Task 1: Colour Gradient
 
