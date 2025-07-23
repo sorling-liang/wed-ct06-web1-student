@@ -10,7 +10,9 @@ function setup() {
 function draw() {
 
 
-  
+  colorValue = colorValue +1;
+  // colorValue++;
+
   // let diameter = 80;
   // let posx = 75;
 
