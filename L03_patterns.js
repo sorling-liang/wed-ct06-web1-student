@@ -12,8 +12,8 @@ function draw() {
   let posx = 75;
 
   // Recap 1: Repeating Circles
-  for (let i=0; i<7; i++) {
-    fill(i*50);
+  for (let i=0; i<6; i++) {
+    fill(i*50,0,2);
     circle(posx, 200, diameter);
     posx = posx + diameter + 10; // calculate the new position of x
   }
