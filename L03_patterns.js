@@ -22,7 +22,8 @@ function draw() {
       // }
 
       textSize(16);
-      text("counter:" + counter, 50, 50);
+      text("counter: " + counter, 50, 50);
+      counter++;
 
       // Task 2: Colour Loop
       fill(colorValue, 0, 0);
