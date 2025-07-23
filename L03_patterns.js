@@ -11,7 +11,7 @@ function setup() {
 function draw() {
 
   // Recap 1: Repeating Circles
-  for (let i=0; i<15; i++) {
+  for (let i=0; i<10; i++) {
     circle(x,200, diameter);
     x = x + diameter + 10;
   }
