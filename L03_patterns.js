@@ -1,4 +1,4 @@
-
+let colorValue = 0; // start from black
 
 function setup() {
     createCanvas(800, 400);
