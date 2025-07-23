@@ -6,9 +6,10 @@ function setup() {
   
 function draw() {
   let diameter = 150;
+  let x = 75;
 
   // Recap 1: Repeating Circles
-  circle(75,200, diameter);
+  circle(x,200, diameter);
   circle(225,200, diameter);
   circle(375,200, diameter);
   circle(525,200, diameter);
