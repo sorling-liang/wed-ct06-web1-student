@@ -10,7 +10,8 @@ function draw() {
 
   // Recap 1: Repeating Circles
   circle(x,200, diameter);
-  circle(225,200, diameter);
+  x = x + diameter + 10;
+  circle(x,200, diameter);
   circle(375,200, diameter);
   circle(525,200, diameter);
 
