@@ -3,7 +3,7 @@ let counter = 0;
 let posX = 50;
 
 function setup() {
-    createCanvas(600, 400);
+    createCanvas(800, 400);
     background(220); // gray-tone
     // noLoop(); // Stops continuous drawing
   }
@@ -31,7 +31,7 @@ function draw() {
       circle(posX,250, 100);
       // colorValue = colorValue +1;
       colorValue++; // shorthand
-      posX = posX + 100;
+      posX = posX + 105;
 
 
   // Task 3: Row of Circles
