@@ -20,7 +20,7 @@ function draw() {
       //   circle(posx, 200, diameter);
       //   posx = posx + diameter + 10; // calculate the new position of x
       // }
-
+      background(220);
       textSize(16);
       text("counter: " + counter, 50, 50);
       counter++;
