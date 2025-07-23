@@ -12,7 +12,7 @@ function draw() {
   fill(colorValue, 0, 0);
   circle(250,250, 200);
   // colorValue = colorValue +1;
-  colorValue++;
+  colorValue++; // shorthand
 
   // let diameter = 80;
   // let posx = 75;
