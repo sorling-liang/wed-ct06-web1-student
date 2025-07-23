@@ -5,6 +5,8 @@ function setup() {
   }
   
 function draw() {
+  diameter = 200;
+  
   // Recap 1: Repeating Circles
 
   // Task 1: Colour Gradient
