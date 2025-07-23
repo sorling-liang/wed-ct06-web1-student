@@ -10,7 +10,7 @@ function setup() {
 function draw() {
 
   fill(colorValue);
-  circle(250,50, 200);
+  circle(250,250, 200);
   colorValue = colorValue +1;
   // colorValue++;
 
