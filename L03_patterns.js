@@ -1,5 +1,5 @@
 let diameter = 80;
-let x = 75;
+let posx = 75;
 
 function setup() {
     createCanvas(800, 400);
@@ -12,8 +12,8 @@ function draw() {
 
   // Recap 1: Repeating Circles
   for (let i=0; i<5; i++) {
-    circle(x, 200, diameter);
-    x = x + diameter + 10; // calculate the new position of x
+    circle(posx, 200, diameter);
+    posx = posx + diameter + 10; // calculate the new position of x
   }
 
 
