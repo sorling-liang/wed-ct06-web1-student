@@ -20,14 +20,14 @@ function draw() {
       //   circle(posx, 200, diameter);
       //   posx = posx + diameter + 10; // calculate the new position of x
       // }
-      background(220);
-      textSize(16);
-      text("counter: " + counter%500, 50, 50);
-      counter++;
+      // background(220);
+      // textSize(16);
+      // text("counter: " + counter%500, 50, 50);
+      // counter++;
 
       // Task 2: Colour Loop
       fill((colorValue%2)*255);
-      circle(posX,250, 200);
+      circle(posX,250, 100);
       // colorValue = colorValue +1;
       colorValue++; // shorthand
       posX = posX + 100;
