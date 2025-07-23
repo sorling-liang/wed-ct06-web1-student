@@ -9,9 +9,12 @@ function draw() {
   let x = 75;
 
   // Recap 1: Repeating Circles
+  for (let i=1; i<5; i++) {
+    
+  }
   circle(x,200, diameter);
   x = x + diameter + 10;
-  
+
   // circle(x,200, diameter);
   // x = x + diameter + 10;
   // circle(x,200, diameter);
