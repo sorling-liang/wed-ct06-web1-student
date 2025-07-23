@@ -28,7 +28,7 @@ function draw() {
 
       // Task 2: Colour Loop
       fill( (colorValue%2) *255 );
-      circle(posX,250, 100);
+      circle(posX, 250, 100);
       // colorValue = colorValue +1;
       colorValue++; // shorthand
       posX = posX + 105;
