@@ -11,7 +11,7 @@ function setup() {
 function draw() {
 
   // Recap 1: Repeating Circles
-  for (let i=0; i<8; i++) {
+  for (let i=0; i<5; i++) {
     circle(x, 200, diameter);
     x = x + diameter + 10; // calculate the new position of x
   }
@@ -30,5 +30,5 @@ function draw() {
   // Task 3: Row of Circles
 
   // Task 4: Grid of Circles
-  
+
 } // this is the last line
