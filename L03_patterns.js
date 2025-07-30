@@ -22,6 +22,7 @@ function draw() {
 
   // Task 3: Row of Circles
   for (let count=0; count<5; count++) {
+    // fill(0,0,0); // black
     fill(0, greenValue, 0); // red, green, blue
     greenValue = greenValue + 40;
 
