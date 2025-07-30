@@ -4,7 +4,7 @@ let shapeColor = "blue";
 
 // when green flag clicked
 function setup() {
-
+    
 }
 
 // forever block; repeatedly for 60 times per one second
