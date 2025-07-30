@@ -11,6 +11,7 @@ function setup() {
 
 // forever block; repeatedly for 60 times per one second
 function draw() {
+    background(200); 
     // fill(shapeColor);
     noStroke();
     fill(50, 50); // gray, transparency
