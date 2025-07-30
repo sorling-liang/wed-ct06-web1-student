@@ -15,7 +15,7 @@ function draw() {
 
       // Task 1: Colour Gradient
 
-  const diameter = 50;
+  const diameter = 50; // value does not change
   let xpos = 50;
   let ypos = 50;
   let greenValue = 0;
