@@ -14,7 +14,7 @@ function draw() {
     background(200); // erase the drawing
     // fill(shapeColor);
     noStroke();
-    fill(50, 50); // gray, transparency
+    fill(0); // gray, transparency
     circle(mouseX, mouseY, diameter); // xpos, ypos, diameter;
 }
 
