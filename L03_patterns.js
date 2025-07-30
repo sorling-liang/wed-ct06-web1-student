@@ -15,24 +15,26 @@ function draw() {
 
       // Task 1: Colour Gradient
 
-  const diameter = 50; // value does not change
-  let xpos = 50;
-  let ypos = 50;
-  let greenValue = 0;
+  // const diameter = 50; // value does not change
+  // let xpos = 50;
+  // let ypos = 50;
+  // let greenValue = 0;
 
-  // Task 3: Row of Circles
-  for (let count=1; count<7; count++) {
-    // fill(0,0,0); // black
-    fill(0, greenValue, 0); // red, green, blue
-    greenValue = greenValue + 40;
+  // // Task 3: Row of Circles
+  // for (let count=1; count<7; count++) {
+  //   // fill(0,0,0); // black
+  //   fill(0, greenValue, 0); // red, green, blue
+  //   greenValue = greenValue + 40;
 
-    // circle(50,50,50); 
-    circle(xpos, ypos, diameter); // xpos, ypos, diameter
-    xpos = xpos + 60; // go towards right side
-    ypos = ypos + 60; // go towards bottom of the canvas
-  }
+  //   // circle(50,50,50); 
+  //   circle(xpos, ypos, diameter); // xpos, ypos, diameter
+  //   xpos = xpos + 60; // go towards right side
+  //   ypos = ypos + 60; // go towards bottom of the canvas
+  // }
 
   // Task 4: Grid of Circles
+
+  // 
 
 } // this is the last line
 
