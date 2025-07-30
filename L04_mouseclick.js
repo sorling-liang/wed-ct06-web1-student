@@ -11,7 +11,8 @@ function setup() {
 
 // forever block; repeatedly for 60 times per one second
 function draw() {
-    fill(shapeColor);
+    // fill(shapeColor);
+    fill(200, 50); // gray, transparency
     circle(100, 100, diameter); // xpos, ypos, diameter;
 }
 
