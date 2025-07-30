@@ -1,7 +1,7 @@
 // write your codes here
 
 let shapeColor = "blue";
-let diameter = 100;
+let diameter = 25;
 
 // when green flag clicked
 function setup() {
