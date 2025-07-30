@@ -39,6 +39,8 @@ function draw() {
   for (let count=0; count<5; count++) {
      // this is repeated
      fill(0); // black color
+     if (count%2 == 0) fill(255);
+     
      rect(xpos,50,50,50); // xpos, ypos, width, height
      xpos = xpos + 60;
   }
