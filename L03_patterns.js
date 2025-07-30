@@ -16,10 +16,13 @@ function draw() {
       // Task 1: Colour Gradient
 
   const diameter = 50;
+  let xpos = 0;
+  let ypos = 0;
+
   // Task 3: Row of Circles
   for (let count=0; count<5; count++) {
     fill(0,0,0); // red, green, blue
-    circle(50,50, diameter); // xpos, ypos, diameter
+    circle(xpos, ypos, diameter); // xpos, ypos, diameter
   }
 
   // Task 4: Grid of Circles
