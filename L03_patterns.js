@@ -23,6 +23,8 @@ function draw() {
   for (let count=0; count<5; count++) {
     fill(0,0,0); // red, green, blue
     circle(xpos, ypos, diameter); // xpos, ypos, diameter
+    xpos = xpos + 60;
+    
   }
 
   // Task 4: Grid of Circles
