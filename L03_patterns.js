@@ -48,7 +48,9 @@ function draw() {
   // }
 
   fill("white");
-  rect(0, 50, width, )
+  rect(0, 50, width, 100);
+  fill("red");
+  circle( width/2, height/2, 50);
 
 } // this is the last line
 
