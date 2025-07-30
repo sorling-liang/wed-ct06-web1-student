@@ -28,7 +28,7 @@ function draw() {
 
     // circle(50,50,50); 
     circle(xpos, ypos, diameter); // xpos, ypos, diameter
-    xpos = xpos + 60;
+    xpos = xpos + 60; // go towards right 
     ypos = ypos + 60;
   }
 
