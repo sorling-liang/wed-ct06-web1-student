@@ -1,6 +1,7 @@
 // write your codes here
 
 let shapeColor = "blue";
+let diameter = 100;
 
 // when green flag clicked
 function setup() {
@@ -11,7 +12,7 @@ function setup() {
 // forever block; repeatedly for 60 times per one second
 function draw() {
     fill(shapeColor);
-    circle(100, 100, 100); // xpos, ypos, diameter;
+    circle(100, 100, diameter); // xpos, ypos, diameter;
 }
 
 function mousePressed() {
