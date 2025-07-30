@@ -10,7 +10,8 @@ function setup() {
 
 // forever block; repeatedly for 60 times per one second
 function draw() {
-
+    fill(shapeColor);
+    circle(100, 100, 100); 
 }
 
 function mousePressed() {
