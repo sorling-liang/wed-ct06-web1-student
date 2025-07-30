@@ -16,8 +16,8 @@ function draw() {
       // Task 1: Colour Gradient
 
   const diameter = 50;
-  let xpos = 0;
-  let ypos = 0;
+  let xpos = 50;
+  let ypos = 50;
 
   // Task 3: Row of Circles
   for (let count=0; count<5; count++) {
