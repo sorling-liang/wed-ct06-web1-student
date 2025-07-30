@@ -18,10 +18,12 @@ function draw() {
   const diameter = 50;
   let xpos = 50;
   let ypos = 50;
+  let greenValue = 0;
 
   // Task 3: Row of Circles
   for (let count=0; count<5; count++) {
-    fill(0,0,0); // red, green, blue
+    fill(0, greenValue,0); // red, green, blue
+    
     circle(xpos, ypos, diameter); // xpos, ypos, diameter
     xpos = xpos + 60;
     ypos = ypos + 60;
