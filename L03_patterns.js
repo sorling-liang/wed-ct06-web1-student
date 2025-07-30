@@ -24,7 +24,7 @@ function draw() {
     fill(0,0,0); // red, green, blue
     circle(xpos, ypos, diameter); // xpos, ypos, diameter
     xpos = xpos + 60;
-    
+    ypos = ypos + 60;
   }
 
   // Task 4: Grid of Circles
