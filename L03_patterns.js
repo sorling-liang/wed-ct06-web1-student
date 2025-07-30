@@ -47,7 +47,8 @@ function draw() {
   //    xpos = xpos + 60;
   // }
 
-  
+  fill("white");
+  rect(0, 50, width, )
 
 } // this is the last line
 
