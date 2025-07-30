@@ -16,6 +16,7 @@ function draw() {
 
 
   // Task 3: Row of Circles
+  for (let count=0; count<6)
 
   // Task 4: Grid of Circles
 
