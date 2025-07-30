@@ -22,8 +22,8 @@ function draw() {
 
   // Task 3: Row of Circles
   for (let count=0; count<5; count++) {
-    fill(0, greenValue,0); // red, green, blue
-    
+    fill(0, greenValue, 0); // red, green, blue
+
     circle(xpos, ypos, diameter); // xpos, ypos, diameter
     xpos = xpos + 60;
     ypos = ypos + 60;
