@@ -35,6 +35,8 @@ function draw() {
   // Task 4: Grid of Circles
 
   let xpos = 50;
+  noStroke();
+  
   // find remainder
   for (let count=0; count<5; count++) {
      // this is repeated
