@@ -47,6 +47,7 @@ function draw() {
   //    xpos = xpos + 60;
   // }
 
+  noStroke();
   fill("white");
   rect(0, 50, width, 100);
   fill("red");
