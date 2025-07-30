@@ -12,6 +12,7 @@ function setup() {
 // forever block; repeatedly for 60 times per one second
 function draw() {
     // fill(shapeColor);
+    noStroke();
     fill(200, 50); // gray, transparency
     circle(mouseX, mouseY, diameter); // xpos, ypos, diameter;
 }
