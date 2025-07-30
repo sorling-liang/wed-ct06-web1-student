@@ -13,7 +13,7 @@ function setup() {
 function draw() {
     // fill(shapeColor);
     fill(200, 50); // gray, transparency
-    circle(100, 100, diameter); // xpos, ypos, diameter;
+    circle(mouseX, mouseY, diameter); // xpos, ypos, diameter;
 }
 
 function mousePressed() {
