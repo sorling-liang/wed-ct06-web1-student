@@ -1,7 +1,7 @@
 // write your codes here
 
 let shapeColor = "blue";
-let diameter = 100;
+let diameter = 35;
 
 // when green flag clicked
 function setup() {
@@ -23,5 +23,5 @@ function mousePressed() {
 }
 
 function mouseReleased() {
-    shapeColor = "blue";
+    // shapeColor = "blue";
 }
