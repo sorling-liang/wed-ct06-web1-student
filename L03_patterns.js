@@ -3,7 +3,7 @@
 // let posX = 50;
 
 function setup() {
-    createCanvas(800, 400);
+    createCanvas(600, 400);
     background(220); // gray-tone
     // noLoop(); // Stops continuous drawing
   }
@@ -23,6 +23,7 @@ function draw() {
   // Task 3: Row of Circles
   for (let count=0; count<5; count++) {
     fill(0, greenValue, 0); // red, green, blue
+    greenValue = greenValue + 40;
 
     circle(xpos, ypos, diameter); // xpos, ypos, diameter
     xpos = xpos + 60;
