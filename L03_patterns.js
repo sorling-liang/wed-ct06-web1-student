@@ -17,7 +17,7 @@ function draw() {
 
   // Task 3: Row of Circles
   for (let count=0; count<5; count++) {
-    fill(0);
+    fill(0,0,0);
     circle(50,50,50);
   }
 
