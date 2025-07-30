@@ -5,7 +5,7 @@
 function setup() {
     createCanvas(600, 400);
     background(220); // gray-tone
-    // noLoop(); // Stops continuous drawing
+    noLoop(); // Stops continuous drawing
   }
 
 
