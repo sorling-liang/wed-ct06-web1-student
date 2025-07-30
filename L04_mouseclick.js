@@ -2,6 +2,7 @@
 
 let shapeColor = "blue";
 
+// when green flag clicked
 function setup() {
 
 }
