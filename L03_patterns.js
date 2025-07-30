@@ -28,8 +28,8 @@ function draw() {
 
     // circle(50,50,50); 
     circle(xpos, ypos, diameter); // xpos, ypos, diameter
-    xpos = xpos + 60; // go towards right 
-    ypos = ypos + 60;
+    xpos = xpos + 60; // go towards right side
+    ypos = ypos + 60; // go towards bottom of the canvas
   }
 
   // Task 4: Grid of Circles
