@@ -28,3 +28,7 @@ function mousePressed() {
 function mouseReleased() {
     // shapeColor = "blue";
 }
+
+function mouseMoved() {
+    
+}
