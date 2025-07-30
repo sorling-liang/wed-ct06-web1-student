@@ -36,7 +36,9 @@ function draw() {
 
   // find remainder
   for (let count=0; count<5; count++) {
-    
+     // this is repeated
+     fill(0); // black color
+     rect()
   }
 
 } // this is the last line
