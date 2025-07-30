@@ -13,6 +13,16 @@ function draw() {
       // Recap 1: Repeating Circles
 
       // Task 1: Colour Gradient
+
+
+  // Task 3: Row of Circles
+
+  // Task 4: Grid of Circles
+
+} // this is the last line
+
+
+
       // let diameter = 80;
       // let posx = 75;
 
@@ -32,10 +42,3 @@ function draw() {
       // // colorValue = colorValue +1;
       // colorValue++; // shorthand
       // posX = posX + 105;
-
-
-  // Task 3: Row of Circles
-
-  // Task 4: Grid of Circles
-
-} // this is the last line
