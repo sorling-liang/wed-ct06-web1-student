@@ -3,7 +3,7 @@
 // let posX = 50;
 
 function setup() {
-    createCanvas(600, 400);
+    createCanvas(200, 200);
     background(220); // gray-tone
     noLoop(); // Stops continuous drawing
   }
@@ -34,18 +34,18 @@ function draw() {
 
   // Task 4: Grid of Circles
 
-  let xpos = 50;
-  noStroke(); // no outline for the shape
+  // let xpos = 50;
+  // noStroke(); // no outline for the shape
 
-  // find remainder
-  for (let count=0; count<5; count++) {
-     // this is repeated
-     fill(0); // black color
-     if (count%2 === 0) fill(255); // change it to white color
+  // // find remainder
+  // for (let count=0; count<5; count++) {
+  //    // this is repeated
+  //    fill(0); // black color
+  //    if (count%2 === 0) fill(255); // change it to white color
 
-     rect(xpos,50,50,50); // xpos, ypos, width, height
-     xpos = xpos + 60;
-  }
+  //    rect(xpos,50,50,50); // xpos, ypos, width, height
+  //    xpos = xpos + 60;
+  // }
 
 } // this is the last line
 
