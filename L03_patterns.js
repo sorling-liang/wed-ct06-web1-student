@@ -34,11 +34,13 @@ function draw() {
 
   // Task 4: Grid of Circles
 
+  let xpos = 50;
   // find remainder
   for (let count=0; count<5; count++) {
      // this is repeated
      fill(0); // black color
      rect(50,50,50,50); // xpos, ypos, width, height
+     xpos = xpos + 60;
   }
 
 } // this is the last line
