@@ -7,7 +7,7 @@ function setup() {
 
 }
 
-// forever block; 
+// forever block; repeatedly for 60 times per one second
 function draw() {
 
 }
