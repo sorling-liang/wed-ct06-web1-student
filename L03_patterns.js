@@ -26,6 +26,7 @@ function draw() {
     fill(0, greenValue, 0); // red, green, blue
     greenValue = greenValue + 40;
 
+    // circle(50,50,50); 
     circle(xpos, ypos, diameter); // xpos, ypos, diameter
     xpos = xpos + 60;
     ypos = ypos + 60;
