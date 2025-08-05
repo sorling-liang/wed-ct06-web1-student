@@ -1,12 +1,28 @@
+Lesson 5 (today)
+to finish up lesson 4 mouse events, do quizizz
+then start on Lesson 5 keyboard events
+
+########################################################
+Lesson 4
+finish up lesson 3 for loops; did quizizz
+-i skipped nested for loops to draw grid of circles using width and height
+
+Started on mouse events today (didnt finish yet)
+Stopped before mouseDragged() function
+
+########################################################
+Lesson 3
+finish up lesson 2; do quizizz
+start on lesson 3 for loops
+
+########################################################
 Lesson 2
+to go through L1 quizizz question and answer
+start on lesson 2
 
-to go through quizizz question and answer
-
-
-
-
+########################################################
 Lesson 1
-complete lesson 1
+completed lesson 1
 did quizizz for lesson 1 too
 did hyperlink for this class
 
