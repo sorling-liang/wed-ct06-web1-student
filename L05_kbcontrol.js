@@ -3,9 +3,10 @@
 // run once similar to "when green flag clicked"
 function setup() {
     // get a blank drawing canvas
-    createCanvas();
+    createCanvas(600, 4);
+
     // set a gray background
-    background(0)
+    background(200);
 }
 
 // forever block
