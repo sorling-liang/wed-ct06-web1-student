@@ -13,12 +13,18 @@ function setup() {
 function draw() {
     noStroke();
 }
-function mousePressed() {
-    size = 5;
-    // set a random color
-    fill( random(255), 0, random(255) );
+// function mousePressed() {
+//     size = 5;
+//     // set a random color
+//     fill( random(255), 0, random(255) );
+// }
+// function mouseDragged() {
+//     size = size + 0.5;
+//     circle(mouseX, mouseY, size);
+// }
+function keyPressed() {
+
 }
-function mouseDragged() {
-    size = size + 0.5;
-    circle(mouseX, mouseY, size);
+function keyReleased() {
+    rectSize = 50;
 }
