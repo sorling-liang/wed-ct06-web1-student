@@ -26,7 +26,7 @@ function draw() {
     }    
     if (key === 't') {
         // triangle( x1,y1,  x2,y2,  x3,y3 )
-        // 0,200
+        // 0,200,   100,0,    200,200
     }
 }
 // function mousePressed() {
