@@ -24,8 +24,8 @@ function draw() {
         // square
         
     }    
-    if (key === 'c') {
-
+    if (key === 't') {
+        // triangle()
     }
 }
 // function mousePressed() {
