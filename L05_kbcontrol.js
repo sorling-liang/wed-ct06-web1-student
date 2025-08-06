@@ -9,18 +9,15 @@ function setup() {
     // set a gray background
     background(200);
 }
-
 // forever block
 function draw() {
     noStroke();
 }
-
 function mousePressed() {
     size = 5;
     // set a random color
     fill( random(255), 0, random(255) );
 }
-
 function mouseDragged() {
     size = size + 0.5;
     circle(mouseX, mouseY, size);
