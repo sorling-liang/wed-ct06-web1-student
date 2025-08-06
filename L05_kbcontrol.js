@@ -5,7 +5,7 @@ let rectSize = 50;
 // run once similar to "when green flag clicked"
 function setup() {
     // get a blank drawing canvas
-    createCanvas(600, 400);
+    createCanvas(200, 200);
 
     // set a gray background
     background(200);
@@ -14,7 +14,7 @@ function setup() {
 function draw() {
     background(200); // clear the drawing paper
     //noStroke();
-    
+
     // draw a shape
     rect(100, 100, rectSize, rectSize);
 }
