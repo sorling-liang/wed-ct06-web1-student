@@ -19,7 +19,7 @@ function draw() {
     // rect(100, 100, rectSize, rectSize);
     if (key === 'c') {
         // circle diameter: 200
-        circle(width/2, 100, 200);
+        circle(width/2, height/2, 200);
     }
     if (key === 's') {
         // square
