@@ -1,4 +1,5 @@
 // write your codes here
+let size = 0;
 
 // run once similar to "when green flag clicked"
 function setup() {
@@ -15,9 +16,9 @@ function draw() {
 }
 
 function mousePressed() {
-
+    size = 5;
 }
 
 function mouseDragged() {
-    
+
 }
