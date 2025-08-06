@@ -22,5 +22,6 @@ function mousePressed() {
 }
 
 function mouseDragged() {
+    size = size + 0.5;
     circle(mouseX, mouseY, size);
 }
