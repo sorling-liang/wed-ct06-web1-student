@@ -17,6 +17,8 @@ function draw() {
 
 function mousePressed() {
     size = 5;
+    // set a random color
+    fill( random(255), 0, random(255) );
 }
 
 function mouseDragged() {
