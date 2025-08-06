@@ -2,6 +2,8 @@ Lesson 5 (today)
 to finish up lesson 4 mouse events, do quizizz
 then start on Lesson 5 keyboard events
 
+l5 we taught system variables: key
+
 ########################################################
 Lesson 4
 finish up lesson 3 for loops; did quizizz
@@ -10,10 +12,15 @@ finish up lesson 3 for loops; did quizizz
 Started on mouse events today (didnt finish yet)
 Stopped before mouseDragged() function
 
+l4 we taught random(stop_number)
+l4 we taught system variables: mouseX and mouseY
+
 ########################################################
 Lesson 3
 finish up lesson 2; do quizizz
 start on lesson 3 for loops
+
+l3 we taught system variables: width and height
 
 ########################################################
 Lesson 2
