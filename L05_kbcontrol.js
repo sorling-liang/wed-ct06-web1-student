@@ -18,9 +18,10 @@ function draw() {
     // draw a shape
     // rect(100, 100, rectSize, rectSize);
     if (key === 'c') {
-        
+        // circle
     }
-    if (key === 'c') {
+    if (key === 's') {
+        // square
         
     }    
     if (key === 'c') {
