@@ -12,7 +12,7 @@ function setup() {
 
 // forever block
 function draw() {
-
+    noStroke();
 }
 
 function mousePressed() {
