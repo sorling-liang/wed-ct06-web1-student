@@ -17,7 +17,15 @@ function draw() {
 
     // draw a shape
     // rect(100, 100, rectSize, rectSize);
-    if (key === 'c')
+    if (key === 'c') {
+        
+    }
+    if (key === 'c') {
+        
+    }    
+    if (key === 'c') {
+
+    }
 }
 // function mousePressed() {
 //     size = 5;
