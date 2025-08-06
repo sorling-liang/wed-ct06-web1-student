@@ -12,7 +12,7 @@ function setup() {
 }
 // forever block
 function draw() {
-    background(200);
+    background(200); // clear the drawing paper
     //noStroke();
     rect(100, 100, rectSize, rectSize);
 }
