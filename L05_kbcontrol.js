@@ -18,7 +18,7 @@ function draw() {
     // draw a shape
     // rect(100, 100, rectSize, rectSize);
     if (key === 'c') {
-        // circle
+        // circle diameter
     }
     if (key === 's') {
         // square
