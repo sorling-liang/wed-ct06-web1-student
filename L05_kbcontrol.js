@@ -12,6 +12,7 @@ function setup() {
 }
 // forever block
 function draw() {
+    background(200);
     noStroke();
     rect(100, 100, rectSize, rectSize);
 }
