@@ -14,6 +14,8 @@ function setup() {
 function draw() {
     background(200); // clear the drawing paper
     //noStroke();
+    
+    // draw a shape
     rect(100, 100, rectSize, rectSize);
 }
 // function mousePressed() {
