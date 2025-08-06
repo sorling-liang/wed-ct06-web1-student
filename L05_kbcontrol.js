@@ -16,7 +16,8 @@ function draw() {
     //noStroke();
 
     // draw a shape
-    rect(100, 100, rectSize, rectSize);
+    // rect(100, 100, rectSize, rectSize);
+    if (key === 'c')
 }
 // function mousePressed() {
 //     size = 5;
