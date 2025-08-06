@@ -23,7 +23,7 @@ function draw() {
     }
     if (key === 's') {
         // square
-        
+        rect()
     }    
     if (key === 't') {
         // triangle( x1,y1,  x2,y2,  x3,y3 )
