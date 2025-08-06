@@ -13,6 +13,7 @@ function setup() {
 // forever block
 function draw() {
     noStroke();
+    rect(100, 100, rectSize, rectSize);
 }
 // function mousePressed() {
 //     size = 5;
