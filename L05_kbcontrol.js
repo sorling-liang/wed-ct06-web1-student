@@ -1,5 +1,6 @@
 // write your codes here
 let size = 0;
+let rectSize = 50;
 
 // run once similar to "when green flag clicked"
 function setup() {
