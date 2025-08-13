@@ -29,14 +29,16 @@ function draw() {
     if (keyIsDown( LEFT_ARROW )) {
         xpos = xpos -3;
     }
+    xpos = constrain(xpos, 0, width);
 
-    
     if (keyIsDown( UP_ARROW )) {
         ypos = ypos -3;
     }
     if (keyIsDown( DOWN_ARROW )) {
         ypos = ypos +3;
     }
+    ypos = constrain()
+
     fill(255,0,0); // red
     circle(xpos, ypos, 50); // width, height of the canvas
 }
