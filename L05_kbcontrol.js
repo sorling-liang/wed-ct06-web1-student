@@ -5,7 +5,7 @@ let rectSize = 50;
 // run once similar to "when green flag clicked"
 function setup() {
     // get a blank drawing canvas
-    createCanvas(200, 200);
+    createCanvas(600, 400);
 
     // set a gray background
     background(200);
