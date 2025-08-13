@@ -4,6 +4,7 @@ let soundEffect, bgMusic, staticImage;
 function preload() {
     // load any images or sounds here
     soundEffect = loadSound('assets/pop.mp3');
+    bgMusic = loadSound('assets/');
 }
 
 // run once similar to "when green flag clicked"
