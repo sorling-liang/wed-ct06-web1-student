@@ -26,7 +26,7 @@ function draw() {
     }
 
     fill(255,0,0); // red
-    circle(width/2, height/2, 80);
+    circle(xpos, height/2, 80);
 }
 
 // function keyPressed() {
