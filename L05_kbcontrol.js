@@ -31,7 +31,7 @@ function draw() {
     }
 
     fill(255,0,0); // red
-    circle(xpos, height/2, 80);
+    circle(xpos, height/2, 80); // width, height of the canvas
 }
 
 // function keyPressed() {
