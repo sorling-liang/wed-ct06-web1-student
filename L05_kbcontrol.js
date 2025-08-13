@@ -32,7 +32,7 @@ function draw() {
 
     textSize(16); // font size
         // text          x  y
-    text(key, 100, 50);
+    text(key,     100, 50);
     text(keyCode, 100, 70);
 }
 
