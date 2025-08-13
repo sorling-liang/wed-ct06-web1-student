@@ -20,6 +20,8 @@ function draw() {
     text(key,     50, 40);
     text(keyCode, 50, 80);
 
+    if (keyIsDown)
+
     fill(255,0,0); // red
     circle(width/2, height/2, 80);
 }
