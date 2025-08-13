@@ -30,18 +30,10 @@ function draw() {
         triangle(0,200,  100,0,  200,200);
     }
 }
-// function mousePressed() {
-//     size = 5;
-//     // set a random color
-//     fill( random(255), 0, random(255) );
+
+// function keyPressed() {
+//     rectSize = 100;
 // }
-// function mouseDragged() {
-//     size = size + 0.5;
-//     circle(mouseX, mouseY, size);
+// function keyReleased() {
+//     rectSize = 50;
 // }
-function keyPressed() {
-    rectSize = 100;
-}
-function keyReleased() {
-    rectSize = 50;
-}
