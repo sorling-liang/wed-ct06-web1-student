@@ -22,10 +22,10 @@ function draw() {
     text(keyCode, 50, 80);
 
     if (keyIsDown(RIGHT_ARROW)) {
-        xpos = xpos + 1;
+        xpos = xpos +1;
     }
     if (keyIsDown(LEFT_ARROW)) {
-        xpos = xpos + 1;
+        xpos = xpos -1;
     }
 
     fill(255,0,0); // red
