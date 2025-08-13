@@ -1,6 +1,7 @@
 // write your codes here
 let size = 0;
 let rectSize = 50;
+let xpos = 50;
 
 // run once similar to "when green flag clicked"
 function setup() {
@@ -21,7 +22,7 @@ function draw() {
     text(keyCode, 50, 80);
 
     if (keyIsDown(RIGHT_ARROW)) {
-        
+        xpos = xpos + 1;
     }
 
     fill(255,0,0); // red
