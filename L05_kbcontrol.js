@@ -29,7 +29,9 @@ function draw() {
     if (keyIsDown( LEFT_ARROW )) {
         xpos = xpos -1;
     }
-    if (keyIsDown(UP_ARROW ))
+    if (keyIsDown( UP_ARROW )) {
+        ypos = ypos
+    }
 
     fill(255,0,0); // red
     circle(xpos, ypos, 80); // width, height of the canvas
