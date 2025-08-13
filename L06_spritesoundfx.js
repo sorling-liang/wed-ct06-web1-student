@@ -3,7 +3,7 @@ let soundEffect, bgMusic, staticImage;
 
 function preload() {
     // load any images or sounds here
-    
+    soundEffect = loadSound('');
 }
 
 // run once similar to "when green flag clicked"
