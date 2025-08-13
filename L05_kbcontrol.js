@@ -37,7 +37,7 @@ function draw() {
     if (keyIsDown( DOWN_ARROW )) {
         ypos = ypos +3;
     }
-    ypos = constrain()
+    ypos = constrain(ypos, 0, height);
 
     fill(255,0,0); // red
     circle(xpos, ypos, 50); // width, height of the canvas
