@@ -19,7 +19,9 @@ function draw() {
         // text     x  y
     text(key,     50, 40);
     text(keyCode, 50, 80);
-    circle(width/2, height/2, 80)
+
+    fill(255,0,0); // red
+    circle(width/2, height/2, 80);
 }
 
 // function keyPressed() {
