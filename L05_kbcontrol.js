@@ -31,7 +31,8 @@ function draw() {
     // }
 
     textSize(16); // font size
-    text("hello world", 50, 50)
+        // text          x  y
+    text("hello world", 50, 50);
 }
 
 // function keyPressed() {
