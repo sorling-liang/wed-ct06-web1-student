@@ -30,10 +30,10 @@ function draw() {
     //     triangle(0,200,  100,0,  200,200);
     // }
 
-    textSize(16); // font size
+    textSize(64); // font size
         // text          x  y
-    text(key,     100, 50);
-    text(keyCode, 100, 70);
+    text(key,     300, 50);
+    text(keyCode, 300, 120);
 }
 
 // function keyPressed() {
