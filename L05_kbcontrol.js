@@ -24,16 +24,16 @@ function draw() {
     text(keyCode, 50, 80);
 
     if (keyIsDown( RIGHT_ARROW )) {
-        xpos = xpos +1;
+        xpos = xpos +3;
     }
     if (keyIsDown( LEFT_ARROW )) {
-        xpos = xpos -1;
+        xpos = xpos -3;
     }
     if (keyIsDown( UP_ARROW )) {
-        ypos = ypos -1;
+        ypos = ypos -3;
     }
     if (keyIsDown( DOWN_ARROW )) {
-        ypos = ypos +1;
+        ypos = ypos +3;
     }
     fill(255,0,0); // red
     circle(xpos, ypos, 80); // width, height of the canvas
