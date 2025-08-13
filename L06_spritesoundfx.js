@@ -5,8 +5,8 @@ function preload() {
     // load any images or sounds here
     soundEffect = loadSound('assets/pop.mp3');
     bgMusic = loadSound('assets/bossaNova.mp3');
-    
-    staticImage = loadImage();
+
+    staticImage = loadImage('assets/');
 }
 
 // run once similar to "when green flag clicked"
