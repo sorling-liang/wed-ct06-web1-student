@@ -23,10 +23,10 @@ function draw() {
     text(key,     50, 40);
     text(keyCode, 50, 80);
 
-    if (keyIsDown(RIGHT_ARROW)) {
+    if (keyIsDown( RIGHT_ARROW )) {
         xpos = xpos +1;
     }
-    if (keyIsDown(LEFT_ARROW)) {
+    if (keyIsDown( LEFT_ARROW )) {
         xpos = xpos -1;
     }
 
