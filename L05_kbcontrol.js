@@ -32,8 +32,8 @@ function draw() {
 
     textSize(64); // font size
         // text          x  y
-    text(key,     300, 50);
-    text(keyCode, 300, 120);
+    text(key,     300, 70);
+    text(keyCode, 300, 140);
 }
 
 // function keyPressed() {
