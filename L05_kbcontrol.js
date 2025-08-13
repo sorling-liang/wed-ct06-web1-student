@@ -24,6 +24,9 @@ function draw() {
     if (keyIsDown(RIGHT_ARROW)) {
         xpos = xpos + 1;
     }
+    if (keyIsDown(LEFT_ARROW)) {
+        xpos = xpos + 1;
+    }
 
     fill(255,0,0); // red
     circle(xpos, height/2, 80);
