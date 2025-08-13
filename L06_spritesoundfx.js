@@ -1,4 +1,5 @@
 // write your codes here
+let soundEffect, bgMusic, staticImage;
 
 // run once similar to "when green flag clicked"
 function setup() {
