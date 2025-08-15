@@ -8,8 +8,8 @@ function setup() {
 }
 function draw() {
     image(bg,0,0,480,360);
-    fill("black");
-    stroke("red");
+    fill("red");
+    stroke("yellow");
     strokeWeight(8);
     triangle(width/2-50, height/2, width/2, height/2-80, width/2+50, height/2);
 }
