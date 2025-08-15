@@ -11,6 +11,8 @@ function draw() {
     fill("red");
     stroke("blue");
     strokeWeight(8);
-    triangle(width/2-50, 200, width/2, 200-80, width/2+50, 200);
+
     circle(width/2, height/2+75, 100);
+
+    triangle(width/2-50, 200, width/2, 200-80, width/2+50, 200);
 }
