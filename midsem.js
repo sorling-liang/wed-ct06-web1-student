@@ -7,5 +7,6 @@ function setup() {
     createCanvas(480,360);
 }
 function draw() {
-    Image(bg,0,0,480,360);
+    image(bg,0,0,480,360);
+    fill
 }
