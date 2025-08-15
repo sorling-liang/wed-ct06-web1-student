@@ -8,5 +8,7 @@ function setup() {
 }
 function draw() {
     image(bg,0,0,480,360);
-    fill
+    fill("black");
+    stroke("red");
+    strokeWeight(10);
 }
