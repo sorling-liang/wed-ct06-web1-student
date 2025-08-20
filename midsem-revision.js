@@ -11,9 +11,11 @@ function setup() {
 function draw() {
     let xpos = 50;
     let colorval = 0;
-    
+
     for (let count=0; count<5; count++ ) {
+        fill(colorval);
         rect(xpos,50,50,50);
         xpos = xpos+60;
+        colorval = colorval + 50;
     }
 }
