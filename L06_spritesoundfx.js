@@ -34,12 +34,12 @@ function draw() {
     // fill("black");
     // rect(xpos, ypos, 35, 35);
 
-    // if (keyIsDown(RIGHT_ARROW)) {
-    //     xpos = xpos + 1;
-    // }
-    // if (keyIsDown(LEFT_ARROW)) {
-    //     xpos = xpos - 1;
-    // }
-    // xpos = constrain(xpos, 30, 340);
+    if (keyIsDown(RIGHT_ARROW)) {
+        xpos = xpos + 1;
+    }
+    if (keyIsDown(LEFT_ARROW)) {
+        xpos = xpos - 1;
+    }
+    xpos = constrain(xpos, 0, 400);
     // ypos = constrain(ypos, 30, 340);
 }
