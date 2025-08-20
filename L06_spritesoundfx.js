@@ -25,7 +25,7 @@ function draw() {
     fill("black");
     rect(width/2, height/2, 35, 35);
 
-    if (keyIsDown(LEFT_ARROW)) {
+    if (keyIsDown(RIGHT_ARROW)) {
         
     }
     if (keyIsDown(LEFT_ARROW)) {
