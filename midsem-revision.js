@@ -9,7 +9,7 @@ function setup() {
 
 // forever block
 function draw() {
-    for (let count=0; count<5; count++) {
-        rect(50,50,50,50)
+    for (let count=0; count<5; count = count + 1 ) {
+        rect(50,50,50,50);
     }
 }
