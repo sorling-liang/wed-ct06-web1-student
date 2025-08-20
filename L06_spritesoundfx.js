@@ -1,10 +1,8 @@
 // write your codes here
 let soundEffect, bgMusic, staticImage;
 
-
 let xpos;
 let ypos;
-
 
 function preload() {
     // load any images or sounds here
