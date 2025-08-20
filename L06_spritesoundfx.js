@@ -18,5 +18,5 @@ function setup() {
 // forever block
 function draw() {
     // empty
-    rect(30,30,)
+    rect(30,30,340,340);
 }
