@@ -4,11 +4,13 @@
 function setup() {
     createCanvas(600, 400);
     background("skyblue");
+    noLoop();
 }
 
 // forever block
 function draw() {
-
+    let xpos = 50;
+    let colorvalue = 0;
 
     for (let count=0; count<5; count++) {
         fill(colorvalue);
