@@ -28,4 +28,7 @@ function draw() {
     if (keyIsDown(LEFT_ARROW)) {
         
     }
+    if (keyIsDown(LEFT_ARROW)) {
+
+    }
 }
