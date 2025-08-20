@@ -12,6 +12,6 @@ function draw() {
     let xpos = 50;
     for (let count=0; count<5; count++ ) {
         rect(xpos,50,50,50);
-        xpos = xpos+50;
+        xpos = xpos+60;
     }
 }
