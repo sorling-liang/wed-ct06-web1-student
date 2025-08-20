@@ -31,7 +31,7 @@ function draw() {
     rect(30,30,340,340);
 
     fill("black");
-    rect(width/2, height/2, 35, 35);
+    rect(xpos, ypos, 35, 35);
 
     if (keyIsDown(RIGHT_ARROW)) {
         
