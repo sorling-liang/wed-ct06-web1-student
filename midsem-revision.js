@@ -16,6 +16,6 @@ function draw() {
         fill(colorval);
         rect(xpos,50,50,50);
         xpos = xpos+60;
-        colorval = colorval + 50;
+        colorval = colorval + 60;
     }
 }
