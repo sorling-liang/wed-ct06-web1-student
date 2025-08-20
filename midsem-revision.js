@@ -9,5 +9,5 @@ function setup() {
 
 // forever block
 function draw() {
-
+    for (let count=0; count<5; )
 }
