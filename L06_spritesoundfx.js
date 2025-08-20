@@ -23,20 +23,20 @@ function setup() {
 
 // forever block
 function draw() {
-    // empty
-    fill("white");
-    //   x  y  w    h
-    rect(30,30,340,340);
+    // // empty
+    // fill("white");
+    // //   x  y  w    h
+    // rect(30,30,340,340);
 
-    fill("black");
-    rect(xpos, ypos, 35, 35);
+    // fill("black");
+    // rect(xpos, ypos, 35, 35);
 
-    if (keyIsDown(RIGHT_ARROW)) {
-        xpos = xpos + 1;
-    }
-    if (keyIsDown(LEFT_ARROW)) {
-        xpos = xpos - 1;
-    }
-    xpos = constrain(xpos, 30, 340);
-    ypos = constrain(ypos, 30, 340);
+    // if (keyIsDown(RIGHT_ARROW)) {
+    //     xpos = xpos + 1;
+    // }
+    // if (keyIsDown(LEFT_ARROW)) {
+    //     xpos = xpos - 1;
+    // }
+    // xpos = constrain(xpos, 30, 340);
+    // ypos = constrain(ypos, 30, 340);
 }
