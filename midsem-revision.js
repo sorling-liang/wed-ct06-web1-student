@@ -12,8 +12,8 @@ function draw() {
     let colorvalue = 0;
 
     for (let count=0; count<5; count++) {
-    fill(colorvalue);
-    rect(xpos, 50, 50, 50)
-    xpos = xpos + 50;
+        fill(colorvalue);
+        rect(xpos, 50, 50, 50)
+        xpos = xpos + 60;
     }
 }
