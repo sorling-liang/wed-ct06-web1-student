@@ -11,7 +11,7 @@ function preload() {
 
 // run once similar to "when green flag clicked"
 function setup() {
-    createCanvas(600, 400);
+    createCanvas(400, 400);
     background("skyblue");
 }
 
