@@ -18,6 +18,9 @@ function preload() {
 function setup() {
     createCanvas(400, 400);
     background("skyblue");
+
+    xpos = width/2;
+    ypos = height/2;
 }
 
 // forever block
