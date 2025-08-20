@@ -9,5 +9,6 @@ function setup() {
 // forever block
 function draw() {
     let xpos = 50;
-    rect(xpos, 50, )
+    fill(colorvalue)
+    rect(xpos, 50, 50, 50)
 }
