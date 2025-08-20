@@ -15,6 +15,9 @@ function setup() {
     background("skyblue");
 }
 
+let xpos;
+let ypos;
+
 // forever block
 function draw() {
     // empty
