@@ -1,6 +1,11 @@
 // write your codes here
 let soundEffect, bgMusic, staticImage;
 
+
+let xpos;
+let ypos;
+
+
 function preload() {
     // load any images or sounds here
     soundEffect = loadSound('assets/pop.mp3');
@@ -14,9 +19,6 @@ function setup() {
     createCanvas(400, 400);
     background("skyblue");
 }
-
-let xpos;
-let ypos;
 
 // forever block
 function draw() {
