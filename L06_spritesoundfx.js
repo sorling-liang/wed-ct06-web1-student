@@ -18,5 +18,8 @@ function setup() {
 // forever block
 function draw() {
     // empty
+    //   x  y  w    h
     rect(30,30,340,340);
+
+    rect()
 }
