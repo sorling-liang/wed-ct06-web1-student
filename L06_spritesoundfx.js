@@ -23,6 +23,9 @@ function setup() {
 
 // forever block
 function draw() {
+    background("skyblue");
+    image()
+
     // // empty
     // fill("white");
     // //   x  y  w    h
