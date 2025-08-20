@@ -42,7 +42,7 @@ function draw() {
     }
     else if (keyIsDown(32)) {
         // space key pressed
-        soundEffect.play();
+        soundEffect.play(); // play the sound
     }
     xpos = constrain(xpos, 0, 400-110);
     // ypos = constrain(ypos, 30, 340);
