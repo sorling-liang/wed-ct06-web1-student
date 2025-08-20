@@ -8,5 +8,6 @@ function setup() {
 
 // forever block
 function draw() {
-
+    let xpos = 50;
+    rect(xpos, 50, )
 }
