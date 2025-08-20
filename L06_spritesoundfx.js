@@ -40,6 +40,9 @@ function draw() {
     else if (keyIsDown(LEFT_ARROW)) {
         xpos = xpos - 1;
     }
+    else if (keyIsDown("space")) {
+        
+    }
     xpos = constrain(xpos, 0, 400-110);
     // ypos = constrain(ypos, 30, 340);
 }
