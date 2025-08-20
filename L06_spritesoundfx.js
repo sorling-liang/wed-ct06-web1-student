@@ -32,7 +32,7 @@ function draw() {
     rect(xpos, ypos, 35, 35);
 
     if (keyIsDown(RIGHT_ARROW)) {
-        
+        xpos = xpos + 1;
     }
     if (keyIsDown(LEFT_ARROW)) {
 
