@@ -24,7 +24,7 @@ function setup() {
 // forever block
 function draw() {
     background("skyblue");
-    image(staticImage, x, y, w, h);
+    image(staticImage, xpos, ypos, 110, 133);
 
     // // empty
     // fill("white");
