@@ -5,13 +5,15 @@ let xpos;
 let ypos;
 
 let secondguy;
-let se
+let secondguyX, secondguyY;
+
 function preload() {
     // load any images or sounds here
     soundEffect = loadSound('assets/pop.mp3');
     bgMusic = loadSound('assets/bossaNova.mp3');
 
     staticImage = loadImage('assets/pico-a.png');
+    secondguy = loadImage('assets');
 }
 
 // run once similar to "when green flag clicked"
