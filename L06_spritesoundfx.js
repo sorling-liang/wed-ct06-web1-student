@@ -13,7 +13,7 @@ function preload() {
     bgMusic = loadSound('assets/bossaNova.mp3');
 
     staticImage = loadImage('assets/pico-a.png');
-    secondguy = loadImage('assets/penguin2-b.png');
+    secondguy = loadImage('assets/penguin2-b.svg');
 }
 
 // run once similar to "when green flag clicked"
