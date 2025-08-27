@@ -30,6 +30,9 @@ function setup() {
 // forever block
 function draw() {
     background("skyblue");
+    // load picture onto the canvas
+    image(staticImage, xpos, ypos, 110, 133);
+
     image(staticImage, xpos, ypos, 110, 133);
 
     // // empty
