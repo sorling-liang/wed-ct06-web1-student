@@ -33,7 +33,7 @@ function draw() {
     // load picture onto the canvas
     image(staticImage, xpos, ypos, 110, 133);
 
-    image(staticImage, 250, 250, 110, 133);
+    image(secondguy, 250, 250, 110, 133);
 
     // // empty
     // fill("white");
