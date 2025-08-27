@@ -33,7 +33,7 @@ function draw() {
     // load picture onto the canvas
     image(staticImage, xpos, ypos, 110, 133);
 
-    image(secondguy, 100, 100, 109, 126);
+    image(secondguy, secondguyX, 100, 109, 126);
 
     // // empty
     // fill("white");
@@ -42,6 +42,7 @@ function draw() {
 
     // fill("black");
     // rect(xpos, ypos, 35, 35);
+
     if (keyIsDown(65)) {
         secondguyX = secondguyX - 1;
     }
