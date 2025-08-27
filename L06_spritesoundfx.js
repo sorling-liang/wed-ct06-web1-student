@@ -4,6 +4,8 @@ let soundEffect, bgMusic, staticImage;
 let xpos;
 let ypos;
 
+let secondguy;
+let se
 function preload() {
     // load any images or sounds here
     soundEffect = loadSound('assets/pop.mp3');
