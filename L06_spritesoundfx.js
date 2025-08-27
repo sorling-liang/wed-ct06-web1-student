@@ -43,7 +43,7 @@ function draw() {
     // fill("black");
     // rect(xpos, ypos, 35, 35);
     if (keyIsDown(65)) {
-        xpos = xpos + 1;
+        secondguyX = secondguyX - 1;
     }
     
 
