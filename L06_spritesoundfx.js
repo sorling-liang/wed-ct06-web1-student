@@ -35,14 +35,8 @@ function draw() {
 
     image(secondguy, secondguyX, secondguyY, 109, 126);
 
-    // // empty
-    // fill("white");
-    // //   x  y  w    h
-    // rect(30,30,340,340);
 
-    // fill("black");
-    // rect(xpos, ypos, 35, 35);
-
+    // a key to move left
     if (keyIsDown(65)) {
         secondguyX = secondguyX - 1;
     }
