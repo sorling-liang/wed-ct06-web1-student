@@ -24,5 +24,5 @@ function draw() {
     }
     if ( xpos > width-25 ) {  // DOWN_ARROW
         xpos = width-25;
-    }    
+    }
 }
