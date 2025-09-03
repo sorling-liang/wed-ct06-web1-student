@@ -39,5 +39,6 @@ function draw() {
     noStroke();
     circle(ballX, ballY, ballSize);
 
-    ballX = ballX + ball
+    ballX = ballX + ballSpeedX;
+    ballY = ballY + 
 }
