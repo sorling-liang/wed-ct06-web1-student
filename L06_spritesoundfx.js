@@ -77,5 +77,5 @@ function draw() {
     else if (keyIsDown(DOWN_ARROW)) {
         ypos = ypos +1;
     }    
-    ypos = constrain(ypos, 30, 340);
+    ypos = constrain(ypos, 0, 400);
 }
