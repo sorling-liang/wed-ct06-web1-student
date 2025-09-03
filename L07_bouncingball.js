@@ -64,6 +64,6 @@ function draw() {
         fill( random(0,255), random(0,255), random(0,255) );
     }
 
-    ballSpeedX = constrain(ballSpeedX, 1, 8);
-    ballSpeedY = constrain(ballSpeedY, 1, 8);
+    ballSpeedX = constrain(ballSpeedX, -5, 5);
+    ballSpeedY = constrain(ballSpeedY, -5, 5);
 }
