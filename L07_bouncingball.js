@@ -45,14 +45,17 @@ function draw() {
 
     if ( ballX > width-ballSize/2 ) {
         ballSpeedX = ballSpeedX * -1; // change direction
+        fill( random(0,255), random(0,255), random(0,255) );
     }
     if ( ballX < 0+ballSize/2 ) {
         ballSpeedX = ballSpeedX * -1; // change direction
+        fill( random(0,255), random(0,255), random(0,255) );
     }
 
     // write bounce for top and bottom edge
     if ( ballY > height ) {
         ballSpeedY = ballSpeedY * -1
+        fill( random(0,255), random(0,255), random(0,255) );
     }
 
     if ( ballY < 0 ) {
