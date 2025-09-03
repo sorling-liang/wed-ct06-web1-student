@@ -12,4 +12,8 @@ function draw() {
     // erase
     background("skyblue"); // 220
     circle(xpos, height/2, 50);
+
+    if ( keyIsDown(LEFT_ARROW)) {
+
+    }
 }
