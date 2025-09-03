@@ -57,6 +57,7 @@ function draw() {
 
     if ( ballY < 0 ) {
         ballSpeedY = ballSpeedY * -1
+        //     Red              GREEN         BLUE
         fill( random(0,255), random(0,255), random(0,255) );
     }
 }
