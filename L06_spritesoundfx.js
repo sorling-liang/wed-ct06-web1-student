@@ -44,7 +44,16 @@ function draw() {
     if (keyIsDown(68)) {
         secondguyX = secondguyX +5;
     }
-    
+
+        // d key to move left
+    if (keyIsDown(87)) {
+        secondguyX = secondguyX +5;
+    }
+    // d key to move left
+    if (keyIsDown(83)) {
+        secondguyX = secondguyX +5;
+    }
+
 
     if (keyIsDown(RIGHT_ARROW)) {
         xpos = xpos + 1;
