@@ -1,4 +1,5 @@
 // write your codes here
+let xpos = 200;
 
 // run once similar to "when green flag clicked"
 function setup() {
