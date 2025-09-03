@@ -43,7 +43,8 @@ function draw() {
     // d key to move right
     if (keyIsDown(68)) {
         secondguyX = secondguyX +5;
-    }
+    }    xpos = constrain(xpos, 0, 400-110);
+
 
     // w key to move up
     if (keyIsDown(87)) {
@@ -53,7 +54,7 @@ function draw() {
     if (keyIsDown(83)) {
         secondguyY = secondguyY +5;
     }
-    secondguyY = constrain(secondguyY, 0, 340);
+    secondguyY = constrain(secondguyY, 0, height);
 
 
     if (keyIsDown(RIGHT_ARROW)) {
