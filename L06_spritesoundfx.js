@@ -47,11 +47,11 @@ function draw() {
 
     // w key to move up
     if (keyIsDown(87)) {
-        secondguyY = secondguyX +5;
+        secondguyY = secondguyY -5;
     }
     // s key to move down
     if (keyIsDown(83)) {
-        secondguyX = secondguyX +5;
+        secondguyY = secondguyY +5;
     }
 
 
