@@ -10,7 +10,7 @@ function setup() {
 // forever block
 function draw() {
     // erase
-    //background("skyblue"); // 220
+    background("skyblue"); // 220
     circle(xpos, height/2, 50);
 
     if ( keyIsDown(LEFT_ARROW) ) {  // UP_ARROW
