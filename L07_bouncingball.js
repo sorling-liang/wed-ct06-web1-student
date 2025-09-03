@@ -51,4 +51,11 @@ function draw() {
     }
 
     // write bounce for top and bottom edge
+    if ( ballY > height ) {
+        ballSpeedY = ballSpeedY * -1
+    }
+
+    if ( ballY < 0 ) {
+
+    }
 }
