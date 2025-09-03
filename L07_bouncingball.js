@@ -49,4 +49,6 @@ function draw() {
     if ( ballX < 0+ballSize/2 ) {
         ballSpeedX = ballSpeedX * -1; // change direction
     }
+
+    // write bounce for top and bottom edge
 }
