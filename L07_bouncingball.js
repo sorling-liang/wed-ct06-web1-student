@@ -14,21 +14,21 @@ function setup() {
 }
 
 // forever block
-function draw() {
-    // erase
-    background("skyblue"); // 220
-    circle(xpos, height/2, 50);
+// function draw() {
+//     // erase
+//     background("skyblue"); // 220
+//     circle(xpos, height/2, 50);
 
-    if ( keyIsDown(LEFT_ARROW) ) {  // UP_ARROW
-        xpos = xpos -5;
-    }
-    if ( xpos < 25 ) {
-        xpos = 25;
-    }
-    if ( keyIsDown(RIGHT_ARROW) ) {  
-        xpos = xpos +5;
-    }
-    if ( xpos > width-25 ) {  // DOWN_ARROW
-        xpos = width-25;
-    }
-}
+//     if ( keyIsDown(LEFT_ARROW) ) {  // UP_ARROW
+//         xpos = xpos -5;
+//     }
+//     if ( xpos < 25 ) {
+//         xpos = 25;
+//     }
+//     if ( keyIsDown(RIGHT_ARROW) ) {  
+//         xpos = xpos +5;
+//     }
+//     if ( xpos > width-25 ) {  // DOWN_ARROW
+//         xpos = width-25;
+//     }
+// }
