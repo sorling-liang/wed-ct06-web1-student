@@ -2,6 +2,10 @@
 let xpos = 200;
 
 let ballX
+let ballY
+let ballSize
+let ballSpeedX = 2;
+let ballSpeedY = 2;
 
 // run once similar to "when green flag clicked"
 function setup() {
