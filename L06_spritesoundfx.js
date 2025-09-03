@@ -45,7 +45,7 @@ function draw() {
         secondguyX = secondguyX +5;
     }
 
-        // d key to move left
+    // w key to move up
     if (keyIsDown(87)) {
         secondguyX = secondguyX +5;
     }
