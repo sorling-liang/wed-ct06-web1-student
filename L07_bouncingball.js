@@ -5,7 +5,7 @@ let ballX = 200;
 let ballY = 60;
 let ballSize = 50;
 let ballSpeedX = 2;
-let ballSpeedY = 2;
+let ballSpeedY = 0;
 
 // run once similar to "when green flag clicked"
 function setup() {
