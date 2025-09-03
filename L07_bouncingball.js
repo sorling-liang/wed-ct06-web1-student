@@ -63,4 +63,6 @@ function draw() {
         //     Red              GREEN         BLUE
         fill( random(0,255), random(0,255), random(0,255) );
     }
+
+    ballSpeedX = constrain()
 }
