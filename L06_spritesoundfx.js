@@ -43,7 +43,8 @@ function draw() {
     // d key to move right
     if (keyIsDown(68)) {
         secondguyX = secondguyX +5;
-    }    xpos = constrain(xpos, 0, 400-110);
+    }    
+    secondguyX = constrain(secondguyX, 0, wd);
 
 
     // w key to move up
