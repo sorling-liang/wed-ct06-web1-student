@@ -32,3 +32,8 @@ function setup() {
 //         xpos = width-25;
 //     }
 // }
+
+// task 1
+function draw() {
+
+}
