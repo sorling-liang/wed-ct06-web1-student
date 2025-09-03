@@ -1,9 +1,9 @@
 // write your codes here
 let xpos = 200;
 
-let ballX
-let ballY
-let ballSize
+let ballX = 200;
+let ballY = 300;
+let ballSize = 50;
 let ballSpeedX = 2;
 let ballSpeedY = 2;
 
