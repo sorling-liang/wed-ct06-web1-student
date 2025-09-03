@@ -35,7 +35,7 @@ function setup() {
 
 // task 1
 function draw() {
-    background("steelblue");
+    //background("steelblue");
     noStroke();
     fill(255); // white
     circle(ballX, ballY, ballSize);
