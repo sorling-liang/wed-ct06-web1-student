@@ -44,7 +44,7 @@ function draw() {
     if (keyIsDown(68)) {
         secondguyX = secondguyX +5;
     }    
-    secondguyX = constrain(secondguyX, 0, wd);
+    secondguyX = constrain(secondguyX, 0, width);
 
 
     // w key to move up
