@@ -13,7 +13,7 @@ function draw() {
     background("skyblue"); // 220
     circle(xpos, height/2, 50);
 
-    if ( keyIsDown(LEFT_ARROW) ) {
+    if ( keyIsDown(LEFT_ARROW) ) {  // RIGHT_ARROW
         xpos = xpos -5;
     }
     if ( xpos < 25 ) {
