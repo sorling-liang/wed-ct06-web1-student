@@ -40,16 +40,16 @@ function draw() {
     if (keyIsDown(65)) {
         secondguyX = secondguyX -5;
     }
-    // d key to move left
+    // d key to move right
     if (keyIsDown(68)) {
         secondguyX = secondguyX +5;
     }
 
     // w key to move up
     if (keyIsDown(87)) {
-        secondguyX = secondguyX +5;
+        secondguyY = secondguyX +5;
     }
-    // d key to move left
+    // s key to move down
     if (keyIsDown(83)) {
         secondguyX = secondguyX +5;
     }
