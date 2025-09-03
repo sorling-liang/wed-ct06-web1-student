@@ -1,6 +1,8 @@
 // write your codes here
 let xpos = 200;
 
+let ballX
+
 // run once similar to "when green flag clicked"
 function setup() {
     createCanvas(600, 400);
