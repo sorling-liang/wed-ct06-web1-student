@@ -37,6 +37,7 @@ function setup() {
 function draw() {
     background("steelblue");
     noStroke();
+    fill(255); // white
     circle(ballX, ballY, ballSize);
 
     ballX = ballX + ballSpeedX;
