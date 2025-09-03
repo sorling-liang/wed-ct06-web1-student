@@ -1,3 +1,6 @@
+Lesson 9 (today)
+completed L07_bouncingball
+
 Lesson 5 (today)
 to finish up lesson 4 mouse events, do quizizz
 then start on Lesson 5 keyboard events
