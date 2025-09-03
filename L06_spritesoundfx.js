@@ -38,7 +38,11 @@ function draw() {
 
     // a key to move left
     if (keyIsDown(65)) {
-        secondguyX = secondguyX - 1;
+        secondguyX = secondguyX -5;
+    }
+    // d key to move left
+    if (keyIsDown(68)) {
+        secondguyX = secondguyX +5;
     }
     
 
