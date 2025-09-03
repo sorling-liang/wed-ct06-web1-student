@@ -53,6 +53,7 @@ function draw() {
     if (keyIsDown(83)) {
         secondguyY = secondguyY +5;
     }
+    secondguyY = constrain(secondguyY, 0, 340);
 
 
     if (keyIsDown(RIGHT_ARROW)) {
@@ -67,7 +68,7 @@ function draw() {
     }
     xpos = constrain(xpos, 0, 400-110);
 
-    
+
     if (keyIsDown(UP_ARROW)) {
         ypos = ypos -1;
     }
