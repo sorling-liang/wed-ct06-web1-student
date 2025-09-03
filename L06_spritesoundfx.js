@@ -65,13 +65,13 @@ function draw() {
         // space key pressed
         soundEffect.play(); // play the sound
     }
+    xpos = constrain(xpos, 0, 400-110);
 
     if (keyIsDown(UP_ARROW)) {
         xpos = xpos + 1;
     }
-    else if (keyIsDown(LEFT_ARROW)) {
+    else if (keyIsDown(DOWN_ARROW)) {
         xpos = xpos - 1;
     }    
-    xpos = constrain(xpos, 0, 400-110);
-    // ypos = constrain(ypos, 30, 340);
+    ypos = constrain(ypos, 30, 340);
 }
