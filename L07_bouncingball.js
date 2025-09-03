@@ -35,5 +35,6 @@ function setup() {
 
 // task 1
 function draw() {
-    circle(ballX, ballY, ballS)
+    ba
+    circle(ballX, ballY, ballSize);
 }
