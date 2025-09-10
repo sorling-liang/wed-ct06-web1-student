@@ -43,7 +43,7 @@ function draw() {
     ballX = ballX + ballSpeedX; // use velocity X
     ballY = ballY + ballSpeedY; // use velocity Y
 
-    if ( ballX > width-ballSize/2 ) {
+    if ( ballX > width-ballSize/2 ) { // checking right edge
         ballSpeedX = ballSpeedX * -1; // change direction
         fill( random(0,255), random(0,255), random(0,255) );
     }
