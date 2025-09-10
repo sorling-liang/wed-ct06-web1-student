@@ -47,7 +47,7 @@ function draw() {
         ballSpeedX = ballSpeedX * -1; // change direction
         fill( random(0,255), random(0,255), random(0,255) );
     }
-    if ( ballX < 0+ballSize/2 ) {
+    if ( ballX < 0+ballSize/2 ) { // checking left edge
         ballSpeedX = ballSpeedX * -1; // change direction
         fill( random(0,255), random(0,255), random(0,255) );
     }
