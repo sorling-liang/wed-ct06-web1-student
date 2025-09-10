@@ -21,7 +21,8 @@ function setup() {
 function draw() {
     background("black");
     textSize(18);
-    scale(1,3)
+    translate()
+    scale(1,3);
     text( "the beginning of the star wars story...", 0,0 );
     ypos = ypos - 0.6;
 
