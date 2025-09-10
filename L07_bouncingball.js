@@ -40,8 +40,8 @@ function draw() {
     
     circle(ballX, ballY, ballSize);
 
-    ballX = ballX + ballSpeedX;
-    ballY = ballY + ballSpeedY;
+    ballX = ballX + ballSpeedX; // use velocity X
+    ballY = ballY + ballSpeedY; // use velocity Y
 
     if ( ballX > width-ballSize/2 ) {
         ballSpeedX = ballSpeedX * -1; // change direction
