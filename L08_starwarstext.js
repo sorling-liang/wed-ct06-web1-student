@@ -21,7 +21,7 @@ function setup() {
 function draw() {
     background("black");
     textSize(18);
-    text( "the beginning of the star wars story...", 0,50 );
+    text( "the beginning of the star wars story...", 0,0 );
 
 
 
