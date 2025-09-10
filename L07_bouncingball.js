@@ -53,7 +53,7 @@ function draw() {
     }
 
     // write bounce for top and bottom edge
-    if ( ballY > height ) {
+    if ( ballY > height-ballSize/2 ) {
         ballSpeedY = ballSpeedY * -1
         fill( random(0,255), random(0,255), random(0,255) );
     }
