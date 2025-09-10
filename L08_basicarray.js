@@ -10,5 +10,5 @@ function setup() {
 
 // forever block
 function draw() {
-
+    rect( xpos, ypos, 100, 100 );
 }
