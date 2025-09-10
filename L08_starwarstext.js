@@ -30,7 +30,6 @@ function draw() {
         ypos = height;
     }
 
-
     if ( keyIsDown(32) ) { // space
         soundsFX.play();
     }
