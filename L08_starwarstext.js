@@ -14,14 +14,12 @@ function setup() {
     fill("cyan");
 
     ypos = height;
-    textSize(18);
     textAlign(CENTER, CENTER);
 }
 
 // forever block
 function draw() {
     background("black");
-    textSize(18);
     translate( 150, ypos);
     scale(1,3);
     text( "the beginning of the star wars story...", 0,0 );
