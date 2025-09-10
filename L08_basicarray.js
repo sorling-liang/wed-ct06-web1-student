@@ -6,8 +6,8 @@ let velocityX = 2;
 // run once similar to "when green flag clicked"
 function setup() {
     createCanvas(400, 400);
-    background("skyblue");
-    fill("blue"); // pen colour
+    background("black");
+    fill("cyan"); // pen colour
 
     textSize(32);
     //                    x  y
