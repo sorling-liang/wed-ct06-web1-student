@@ -15,6 +15,7 @@ function setup() {
 
     ypos = height;
     textSize(18);
+    textAlign(CENTER, CENTER);
 }
 
 // forever block
