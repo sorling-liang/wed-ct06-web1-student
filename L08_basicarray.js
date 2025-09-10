@@ -17,6 +17,7 @@ function setup() {
     console.log( favFoods.length ); // print the size of the list
     console.log( favFoods );
 
+    let yValue = 80;
     for ( let index=0; index < favFoods.length; index++ ) {
         console.log( "I love " + favFoods[index] + "!!!" );
     }
