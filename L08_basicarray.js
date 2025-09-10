@@ -13,4 +13,10 @@ function setup() {
 function draw() {
     noStroke();
     rect( xpos, ypos, 50, 50 );
+
+    xpos = xpos + velocityX;
+
+    if ( xpos < 0 || xpos > width ) {
+        
+    }
 }
