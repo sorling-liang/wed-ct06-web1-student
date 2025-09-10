@@ -24,7 +24,7 @@ function setup() {
     for ( let index=0; index < favFoods.length; index++ ) {
         console.log( "I love " + favFoods[index] + "!!!" );
         //                                   x   y
-        text( "I love "  + favFoods[index], 80, yValue );
+        text( "I love "  + favFoods[index], 180, yValue );
         yValue = yValue + 55;
     }
 }
