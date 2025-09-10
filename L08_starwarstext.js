@@ -19,7 +19,7 @@ function setup() {
 // forever block
 function draw() {
     background("black");
-    translate( 150, ypos);
+    translate( width/2, ypos);
     scale(1,3);
     text( "the beginning of the star wars story...", 0,0 );
     ypos = ypos - 0.6;
