@@ -12,6 +12,8 @@ function setup() {
     textSize(32);
     //                    x  y
     text("p5.js library", 80, 200);
+
+    let favFoods = ["fried chicken"]
 }
 
 function draw() {
