@@ -10,7 +10,8 @@ function setup() {
     fill("yellow");
 
     textSize(32);
-    text("p5.js library", 0, 200)
+    //                    x  y
+    text("p5.js library", 0, 200);
 }
 
 function draw() {
