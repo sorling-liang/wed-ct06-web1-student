@@ -20,6 +20,7 @@ function setup() {
 // forever block
 function draw() {
     background("black");
+    textSize(18);
     text( "the beginning of the star wars story...", 0,50 );
 
 
