@@ -1,7 +1,7 @@
 // write your codes here
-let xpos = 200;
-let ypos = 180;
-let velocityX = 2;
+// let xpos = 200;
+// let ypos = 180;
+// let velocityX = 2;
 
 // run once similar to "when green flag clicked"
 function setup() {
@@ -14,7 +14,9 @@ function setup() {
     text("p5.js library", 80, 200);
 
     let favFoods = ["fried chicken", "ice cream", "chocolates"];
-    
+    for ( let index=0; index < favFoods.length; index++ ) {
+        
+    }
 }
 
 function draw() {
