@@ -14,7 +14,8 @@ function setup() {
     text("p5.js library", 80, 200);
 
     let favFoods = ["fried chicken", "ice cream", "chocolates"];
-    console.log( favFoods.length ); // 
+    console.log( favFoods.length ); // print the size of the list
+    
     for ( let index=0; index < favFoods.length; index++ ) {
 
     }
