@@ -20,7 +20,7 @@ function setup() {
     let yValue = 80;
     for ( let index=0; index < favFoods.length; index++ ) {
         console.log( "I love " + favFoods[index] + "!!!" );
-        text( favFoods[index], 80, yValue );
+        text( "I love "  + favFoods[index], 80, yValue );
         yValue = yValue + 55;
         
     }
