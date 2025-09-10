@@ -7,7 +7,7 @@ let velocityX = 2;
 function setup() {
     createCanvas(400, 400);
     background("skyblue");
-    fill("yellow");
+    fill("blue");
 
     textSize(32);
     //                    x  y
