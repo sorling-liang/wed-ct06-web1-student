@@ -35,7 +35,7 @@ function setup() {
 
 // task 1
 function draw() {
-    //background("steelblue");
+    //background("steelblue"); // erase or not
     noStroke();
     
     circle(ballX, ballY, ballSize);
@@ -66,5 +66,5 @@ function draw() {
 
     ballSpeedX = constrain(ballSpeedX, -5, 5);
     ballSpeedY = constrain(ballSpeedY, -5, 5);
-    
+
 } // end of draw()
