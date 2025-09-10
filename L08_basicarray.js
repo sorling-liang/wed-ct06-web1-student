@@ -9,7 +9,7 @@ function setup() {
     background("black");
     fill("cyan"); // pen colour
 
-    textSize(32);
+    textSize(18);
     //                    x   y
     //text("p5.js library", 80, 200);
 
@@ -21,7 +21,7 @@ function setup() {
     for ( let index=0; index < favFoods.length; index++ ) {
         console.log( "I love " + favFoods[index] + "!!!" );
         text( favFoods[index], 80, yValue );
-    
+        yValue = yValue + 55;
         
     }
 }
