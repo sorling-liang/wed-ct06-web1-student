@@ -10,8 +10,8 @@ function setup() {
     fill("cyan"); // pen colour
 
     textSize(32);
-    //                    x  y
-    text("p5.js library", 80, 200);
+    //                    x   y
+    //text("p5.js library", 80, 200);
 
     let favFoods = ["fried chicken", "ice cream", "chocolates"];
     console.log( favFoods.length ); // print the size of the list
