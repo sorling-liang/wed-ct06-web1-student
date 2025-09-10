@@ -17,6 +17,6 @@ function draw() {
     xpos = xpos + velocityX;
 
     if ( xpos < 0 || xpos > width ) {
-
+        fill( random(255))
     }
 }
