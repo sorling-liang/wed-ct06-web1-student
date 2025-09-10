@@ -1,4 +1,8 @@
 // write your codes here
+let sounds
+function preload() {
+
+}
 
 // run once similar to "when green flag clicked"
 function setup() {
