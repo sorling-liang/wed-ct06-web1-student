@@ -66,4 +66,5 @@ function draw() {
 
     ballSpeedX = constrain(ballSpeedX, -5, 5);
     ballSpeedY = constrain(ballSpeedY, -5, 5);
-}
+    
+} // end of draw()
