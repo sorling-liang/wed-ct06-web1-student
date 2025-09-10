@@ -24,7 +24,11 @@ function draw() {
     scale(1,4);
     textAlign(CENTER);
     text( "the beginning of the star wars story...", 0,0 );
-    ypos = ypos - 0.6;
+    ypos = ypos - 1;
+
+    if (ypos < 0) {
+        ypos = height;
+    }
 
 
     if ( keyIsDown(32) ) { // space
