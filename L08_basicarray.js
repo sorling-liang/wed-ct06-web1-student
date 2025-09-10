@@ -1,6 +1,7 @@
 // write your codes here
 let xpos = 200;
 let ypos = 200;
+let velocityX = 2;
 
 // run once similar to "when green flag clicked"
 function setup() {
