@@ -15,7 +15,6 @@ function setup() {
 
     ypos = height;
     textSize(18);
-
 }
 
 // forever block
