@@ -7,11 +7,11 @@ let velocityX = 2;
 function setup() {
     createCanvas(400, 400);
     background("skyblue");
-    fill("blue");
+    fill("blue"); // pen colour
 
     textSize(32);
     //                    x  y
-    text("p5.js library", 0, 200);
+    text("p5.js library", 80, 200);
 }
 
 function draw() {
