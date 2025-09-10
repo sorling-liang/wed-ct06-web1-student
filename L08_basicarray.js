@@ -11,8 +11,8 @@ function setup() {
     fill("cyan"); // pen colour
 
     textSize(18);
-    //textAlign(LEFT, TOP); // default  LEFT, RIGHT, CENTER - horizontal
-    textAlign(CENTER, CENTER); // default TOP, BOTTOM, CENTER - vertical
+    //textAlign(LEFT, TOP); // default;  LEFT, RIGHT, CENTER - horizontal
+    textAlign(CENTER, CENTER); //  TOP, BOTTOM, CENTER - vertical
     //                    x   y
     //text("p5.js library", 80, 200);
 
