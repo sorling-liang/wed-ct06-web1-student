@@ -14,7 +14,6 @@ function setup() {
     fill("cyan");
 
     ypos = height;
-    textAlign(CENTER, CENTER);
 }
 
 // forever block
@@ -24,7 +23,6 @@ function draw() {
     scale(1,3);
     text( "the beginning of the star wars story...", 0,0 );
     ypos = ypos - 0.6;
-
 
 
 
