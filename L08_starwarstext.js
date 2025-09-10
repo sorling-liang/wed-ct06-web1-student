@@ -18,6 +18,12 @@ function setup() {
 
 // forever block
 function draw() {
+    background("black");
+
+
+
+
+
     if ( keyIsDown(32) ) { // space
         soundsFX.play();
     }
