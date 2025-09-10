@@ -11,6 +11,7 @@ function setup() {
     fill("cyan"); // pen colour
 
     textSize(18);
+    textAlign(LEFT, TOP)
     //                    x   y
     //text("p5.js library", 80, 200);
 
