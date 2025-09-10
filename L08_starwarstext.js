@@ -12,6 +12,8 @@ function setup() {
     createCanvas(600, 400);
     background("black");
     fill("cyan");
+
+    ypos = height;
 }
 
 // forever block
