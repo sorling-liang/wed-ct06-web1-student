@@ -13,7 +13,8 @@ function setup() {
     //                    x  y
     text("p5.js library", 80, 200);
 
-    let favFoods = ["fried chicken"]
+    let favFoods = ["fried chicken", "ice cream", "chocolates"];
+    
 }
 
 function draw() {
