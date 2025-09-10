@@ -15,7 +15,8 @@ function setup() {
 
     let favFoods = ["fried chicken", "ice cream", "chocolates"];
     console.log( favFoods.length ); // print the size of the list
-    
+    console.log( favFoods );
+
     for ( let index=0; index < favFoods.length; index++ ) {
 
     }
