@@ -12,7 +12,7 @@ function setup() {
 
     textSize(18);
     textAlign(LEFT, TOP); // default
-    textAlign(RIGHT, TOP); // default
+    textAlign(RIGHT, BOTTOM); // default
     //                    x   y
     //text("p5.js library", 80, 200);
 
