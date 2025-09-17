@@ -10,7 +10,7 @@ function setup() {
     textAlign(CENTER, CENTER);
 
     xpos = width/2;
-    velocityX = 0.6;
+    velocityX = 2;
 }
 
 // forever block
@@ -21,7 +21,7 @@ function draw() {
     text("Bounce!", 0, 0);
 
     xpos = xpos + velocityX;
-    
+
     if (xpos > width) {
         velocityX *= -1;
     }
