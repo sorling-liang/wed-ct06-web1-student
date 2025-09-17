@@ -20,15 +20,10 @@ function setup() {
 // forever block
 function draw() {
     background("black");
-    translate( width/2, ypos);
-    scale(1,4);
+
     textAlign(CENTER);
     text( "the beginning of the star wars story...", 0,0 );
-    ypos = ypos - 1;
 
-    if (ypos < 0) {
-        ypos = height;
-    }
 
     if ( keyIsDown(32) ) { // space
         soundsFX.play();
