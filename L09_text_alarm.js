@@ -10,5 +10,6 @@ function setup() {
 
 // forever block
 function draw() {
+    background("skyblue");
     text("Bounce!", width/2, height/2);
 }
