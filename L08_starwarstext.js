@@ -34,8 +34,8 @@ function draw() {
         "the house blew up",
         "the little pig was as dead as a doorknob",
         "the wolf ate him",
-        "THE END"
-    ]
+        "THE END",
+    ];
 
     for (let index=0; index < story.length; index++) {
         text( story[index], 0, textY);
