@@ -22,6 +22,7 @@ function draw() {
 
     xpos = xpos + velocityX;
 
+    // combine 2 ifs, into a OR condition
     if (xpos > width || xpos < 0) {
         velocityX = velocityX * -1;
     }
