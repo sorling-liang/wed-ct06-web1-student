@@ -35,7 +35,10 @@ function draw() {
         "at episode 4 in the year 1995",
     ];
 
-    for (let index=0; index< story.length; )
+    for (let index=0; index< story.length; index++) {
+
+    }
+    
     ypos = ypos - 0.6;
 
     if ( ypos < 0 ) {
