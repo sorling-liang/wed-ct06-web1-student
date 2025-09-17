@@ -21,10 +21,11 @@ function draw() {
     text("Bounce!", 0, 0);
 
     xpos = xpos + velocityX;
+    
     if (xpos > width) {
         velocityX *= -1;
     }
     else if (xpos < 0) {
-        
+        velocityX *= -1;
     }
 }
