@@ -41,12 +41,13 @@ function draw() {
         text( story[index], 0, textY);
         textY = textY + 35;
     }
-
+    ypos = ypos - 0.6;
+    
     if ( ypos < 0 ) {
         ypos = height;
     }
 
-    ypos = ypos - 0.6;
+
     if (keyIsDown(32) ) {
         soundsFX.play();
     }
