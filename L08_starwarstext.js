@@ -31,7 +31,7 @@ function draw() {
 
     let story = [
         "the beginning of the star wars story...",
-        "",
+        "at episode 4 in the year 1995",
     ];
 
     ypos = ypos - 0.6;
