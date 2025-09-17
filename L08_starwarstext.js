@@ -11,7 +11,7 @@ function setup() {
     createCanvas(600, 400);
     background("black");
     fill("cyan");
-    textSize(32);
+    textSize(18);
 
     // this line must be in setup(), not preload() otherwise js error
     //soundsFX.loop(); // continuous play
@@ -23,7 +23,7 @@ function setup() {
 function draw() {
     background("black");
     translate( width/2, ypos );
-    scale( 1, 3 );
+    scale( 1, 5 );
 
     textAlign(CENTER, CENTER);
     text( "the beginning of the star wars story...", 0,0 );
