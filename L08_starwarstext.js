@@ -22,12 +22,10 @@ function setup() {
 // forever block
 function draw() {
     background("black");
-    translate( width/2, ypos );
-    scale( 1, 5 );
 
     textAlign(CENTER, CENTER);
     text( "the beginning of the star wars story...", 0,0 );
-    text( "line two of my story", 0, 50 );
+    text( "line two of my story", 0, 25 );
 
     ypos = ypos - 1;
 
