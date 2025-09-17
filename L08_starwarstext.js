@@ -16,7 +16,6 @@ function setup() {
 }
 
 function draw() {
-    let textY = 0;
     background(0);
     translate( width/2, ypos );
     textAlign(CENTER, CENTER);
@@ -36,13 +35,14 @@ function draw() {
         "the wolf ate him",
         "THE END",
     ];
-
+    
+    let textY = 0;
     for (let index=0; index < story.length; index++) {
         text( story[index], 0, textY);
         textY = textY + 35;
     }
     ypos = ypos - 0.6;
-    
+
     if ( ypos < 0 ) {
         ypos = height;
     }
