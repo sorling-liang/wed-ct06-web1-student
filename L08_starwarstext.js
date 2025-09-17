@@ -23,6 +23,8 @@ function setup() {
 function draw() {
     background("black");
 
+    translate( width/2, ypos );
+
     textAlign(CENTER, CENTER);
     text( "the beginning of the star wars story...", 0,0 );
     text( "at episode 4 in the year 1995", 0, 50 );
