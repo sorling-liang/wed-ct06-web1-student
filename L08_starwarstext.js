@@ -22,7 +22,7 @@ function setup() {
 function draw() {
     background("black");
 
-    textAlign(CENTER);
+    textAlign(CENTER, CENTER);
     text( "the beginning of the star wars story...", 0,0 );
 
 
