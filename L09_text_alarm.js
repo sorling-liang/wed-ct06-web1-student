@@ -42,5 +42,5 @@ function draw() {
 
     textAlign(CENTER, CENTER);
     textSize(48);
-    text( h)
+    text( hourNumber, width/2, height/2 );
 }
