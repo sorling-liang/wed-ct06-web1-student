@@ -8,6 +8,9 @@ function setup() {
     background("skyblue");
     textSize(48);
     textAlign(CENTER, CENTER);
+
+    xpos = width/2;
+    velocityX = 0.
 }
 
 // forever block
