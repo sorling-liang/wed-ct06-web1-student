@@ -12,7 +12,7 @@ function setup() {
     background("black");
     fill("cyan");
     textSize(18);
-    // this line must be in setup(), not preload()
+    // this line must be in setup(), not preload() otherwise js error
     //soundsFX.loop(); // continuous play
 
     ypos = height;
