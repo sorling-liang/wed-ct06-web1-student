@@ -1,61 +1,5 @@
-// write your codes here
-let soundsFX;
-let ypos;
-
-function preload () {
-    soundsFX = loadSound("assets/star_wars_theme_8_bit.mp3")
-
-}
-function setup() {
-    createCanvas(600, 1400);
-    background(0);
-    //soundsFX.loop();
-    fill("cyan");
-    textSize(28);
-    ypos = height;
-}
-
-function draw() {
-    background(0);
-    translate( width/2, ypos );
-    textAlign(CENTER, CENTER);
-    //text("the beginning of the star wars story...", 0, 0);
-    //text("AT EPISODE 4 IN THE YEAR 1995", 0, 50);
-    
-    let story = [
-        "the beginning of the star wars story",
-        "AT EPISODE 4 IN THE YEAR 1995",
-        "knock knock",
-        "the little pig opened the door",
-        "the wolf huffed",
-        "and puffed",
-        "BOOM",
-        "the house blew up",
-        "the little pig was as dead as a doorknob",
-        "the wolf ate him",
-        "THE END",
-    ];
-    
-    let textY = 0;
-    for (let index=0; index < story.length; index++) {
-        text( story[index], 0, textY);
-        textY = textY + 35;
-    }
-    ypos = ypos - 0.6;
-
-    if ( ypos < 0 ) {
-        ypos = height;
-    }
 
 
-    if (keyIsDown(32) ) {
-        soundsFX.play();
-    }
-    else if ( keyIsDown( DOWN_ARROW ) ) {
-        soundsFX.stop();
-    }
-}
-/*
 // write your codes here
 let soundsFX;
 let ypos;
@@ -113,4 +57,3 @@ function draw() {
         soundsFX.stop();
     }
 }
-*/
