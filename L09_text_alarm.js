@@ -39,10 +39,11 @@ function draw() {
 
     // show a clock
     let hourNumber = hour(); // 24-hour clock
+    
     let minuteNumber = minute();
     let secondNumber = second();
 
-    let timeNow = [hourNumber, minuteNumber, secondNumber];
+    let timeNow = 
 
     textAlign(CENTER, CENTER);
     textSize(48);
