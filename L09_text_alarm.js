@@ -40,4 +40,5 @@ function draw() {
     let minuteNumber = minute();
     let secondNumber = second();
 
+    textAlign(CENTER, CENTER)
 }
