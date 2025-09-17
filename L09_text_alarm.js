@@ -34,5 +34,6 @@ function setup() {
 }
 
 function draw() {
-
+    // show a clock
+    let hour
 }
