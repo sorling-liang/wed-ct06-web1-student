@@ -32,7 +32,7 @@ function draw() {
     ypos = ypos - 0.6;
 
     if ( ypos < 0 ) {
-        
+        ypos = height;
     }
 
     if ( keyIsDown(32) ) { // space
