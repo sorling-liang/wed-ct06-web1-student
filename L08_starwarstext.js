@@ -46,8 +46,8 @@ function draw() {
 
     ypos = ypos + 0.6;
 
-    if ( ypos > hr ) {
-        ypos = height;
+    if ( ypos > height ) {
+        ypos = 0;
     }
 
     if ( keyIsDown(32) ) { // space
