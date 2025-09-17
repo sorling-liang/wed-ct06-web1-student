@@ -16,7 +16,9 @@ function setup() {
 // forever block
 function draw() {
     background("skyblue");
+
     translate( xpos, height/2 );
     text("Bounce!", 0, 0);
+    
     xpos = xpos + velocityX;
 }
