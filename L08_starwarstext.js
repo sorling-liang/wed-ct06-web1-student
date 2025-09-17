@@ -30,6 +30,7 @@ function draw() {
     text( "at episode 4 in the year 1995", 0, 35 );
 
     let story = [
+        "the beginning of the star wars story...",
         "",
     ];
 
