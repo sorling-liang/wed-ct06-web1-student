@@ -27,7 +27,7 @@ function draw() {
     textAlign(CENTER, CENTER);
     text( "the beginning of the star wars story...", 0,0 );
 
-    ypos = ypos - 0.6;
+    ypos = ypos - 1;
 
     if ( keyIsDown(32) ) { // space
         soundsFX.play();
