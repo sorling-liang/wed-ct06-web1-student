@@ -40,9 +40,12 @@ function draw() {
     // show a clock
     let hourNumber = hour(); // 24-hour clock
     hourNumber = nf(hourNumber, 2); // format the number to a 2-digit number
+    
     let minuteNumber = minute();
-    let secondNumber = second();
+    minuteNumber = nf(minuteNumber, 2);
 
+    let secondNumber = second();
+    
     let timeNow = 
 
     textAlign(CENTER, CENTER);
