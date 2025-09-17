@@ -46,5 +46,5 @@ function draw() {
 
     textAlign(CENTER, CENTER);
     textSize(48);
-    text( timeNow, width/2, height/2 );
+    text( secondNumber, width/2, height/2 );
 }
