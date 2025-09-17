@@ -27,7 +27,7 @@ function draw() {
     text( "the beginning of the star wars story...", 0,0 );
     text( "at episode 4 in the year 1995", 0, 50 );
 
-    ypos = ypos - 1;
+    
 
     if ( keyIsDown(32) ) { // space
         soundsFX.play();
