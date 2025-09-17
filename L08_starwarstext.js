@@ -18,7 +18,7 @@ function setup() {
     // this line must be in setup(), not preload() otherwise js error
     //soundsFX.loop(); // continuous play
 
-    ypos = 0; // at the bottom
+    ypos = 0; // at the top
 }
 
 // forever block
