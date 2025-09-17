@@ -44,9 +44,9 @@ function draw() {
         textY = textY + 35;
     }
 
-    ypos = ypos - 0.6;
+    ypos = ypos + 0.6;
 
-    if ( ypos < 0 ) {
+    if ( ypos > hr ) {
         ypos = height;
     }
 
