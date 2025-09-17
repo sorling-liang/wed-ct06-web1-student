@@ -11,7 +11,7 @@ function setup() {
     createCanvas(600, 400);
     background("black");
     fill("cyan");
-    textSize(48);
+    textSize(32);
 
     // this line must be in setup(), not preload() otherwise js error
     //soundsFX.loop(); // continuous play
