@@ -1,4 +1,6 @@
 // write your codes here
+let xpos;
+let velocityX;
 
 // run once similar to "when green flag clicked"
 function setup() {
