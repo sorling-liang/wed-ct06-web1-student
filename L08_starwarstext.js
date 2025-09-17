@@ -25,7 +25,7 @@ function draw() {
 
     textAlign(CENTER, CENTER);
     text( "the beginning of the star wars story...", 0,0 );
-    text( "line two of my story", 0, 25 );
+    text( "at episode 4 in the year 1995", 0, 25 );
 
     ypos = ypos - 1;
 
