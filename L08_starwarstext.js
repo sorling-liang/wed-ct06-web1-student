@@ -4,7 +4,6 @@ let ypos;
 
 function preload() {
     soundsFX = loadSound("assets/star_wars_theme_8_bit.mp3");
-    //soundsFX.loop(); // continuous play
 }
 
 // run once similar to "when green flag clicked"
@@ -13,6 +12,7 @@ function setup() {
     background("black");
     fill("cyan");
     textSize(18);
+    //soundsFX.loop(); // continuous play
 
     ypos = height;
 }
