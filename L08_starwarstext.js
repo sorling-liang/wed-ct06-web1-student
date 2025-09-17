@@ -37,7 +37,7 @@ function draw() {
         "THE END"
     ]
 
-    for (let index=0; index < story.length; index++); {
+    for (let index=0; index < story.length; index++) {
         text( story[index], 0, textY);
         textY = textY + 35;
     }
