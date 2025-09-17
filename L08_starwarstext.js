@@ -24,6 +24,7 @@ function draw() {
     background("black"); // erase
 
     translate( width/2, ypos );
+    scale( 1, 3 );
 
     textAlign(CENTER, CENTER);
     //text( "the beginning of the star wars story...", 0,0 );
