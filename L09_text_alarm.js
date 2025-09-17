@@ -10,5 +10,5 @@ function setup() {
 
 // forever block
 function draw() {
-
+    text("Bounce!", width/2, height/2);
 }
