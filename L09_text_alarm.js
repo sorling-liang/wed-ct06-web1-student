@@ -16,6 +16,6 @@ function setup() {
 // forever block
 function draw() {
     background("skyblue");
-    translate( )
-    text("Bounce!", width/2, height/2);
+    translate( xpos, height/2 );
+    text("Bounce!", 0, 0);
 }
