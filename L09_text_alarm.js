@@ -19,6 +19,9 @@ function draw() {
 
     translate( xpos, height/2 );
     text("Bounce!", 0, 0);
-    
+
     xpos = xpos + velocityX;
+    if (xpos > width) {
+        velocityX = velocityX * -1;
+    }
 }
