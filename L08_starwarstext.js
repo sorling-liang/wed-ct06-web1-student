@@ -26,9 +26,10 @@ function draw() {
     translate( width/2, ypos );
 
     textAlign(CENTER, CENTER);
-    text( "the beginning of the star wars story...", 0,0 );
-    text( "at episode 4 in the year 1995", 0, 35 );
+    //text( "the beginning of the star wars story...", 0,0 );
+    //text( "at episode 4 in the year 1995", 0, 35 );
 
+    let textY = 0;
     let story = [
         "the beginning of the star wars story...",
         "at episode 4 in the year 1995",
