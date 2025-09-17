@@ -42,7 +42,7 @@ function draw() {
     let minuteNumber = minute();
     let secondNumber = second();
 
-    //let timeNow = ??????
+    let timeNow = []
 
     textAlign(CENTER, CENTER);
     textSize(48);
