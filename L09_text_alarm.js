@@ -10,11 +10,12 @@ function setup() {
     textAlign(CENTER, CENTER);
 
     xpos = width/2;
-    velocityX = 0.
+    velocityX = 0.6;
 }
 
 // forever block
 function draw() {
     background("skyblue");
+    translate( )
     text("Bounce!", width/2, height/2);
 }
