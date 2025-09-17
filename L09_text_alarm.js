@@ -33,10 +33,11 @@ function setup() {
     background(220);
 }
 
+// forever loop
 function draw() {
     // show a clock
     let hourNumber = hour();
     let minuteNumber = minute();
     let secondNumber = second();
-    
+
 }
