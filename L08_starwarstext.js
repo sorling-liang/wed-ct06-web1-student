@@ -26,6 +26,7 @@ function draw() {
 
     textAlign(CENTER, CENTER);
     text( "the beginning of the star wars story...", 0,0 );
+    text( "line ", 0,0 );
 
     ypos = ypos - 1;
 
