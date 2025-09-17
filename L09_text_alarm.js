@@ -6,6 +6,8 @@ let velocityX;
 function setup() {
     createCanvas(600, 400);
     background("skyblue");
+    textSize(48);
+    textAlign(CENTER, CENTER);
 }
 
 // forever block
