@@ -21,7 +21,7 @@ function setup() {
 
 // forever block
 function draw() {
-    background("black");
+    background("black"); // erase
 
     translate( width/2, ypos );
 
