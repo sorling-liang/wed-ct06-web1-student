@@ -35,6 +35,8 @@ function setup() {
 
 // forever loop
 function draw() {
+    background(220);
+
     // show a clock
     let hourNumber = hour(); // 24-hour clock
     let minuteNumber = minute();
