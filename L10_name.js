@@ -3,7 +3,10 @@
 canvas
 a rect
 if 5th variable, is radius of how rounded corner
-just teach this class loh, 
+just teach this class loh, walden is observant, see if he ask
+
+create input
+create 
 */
 
 // run once similar to "when green flag clicked"
