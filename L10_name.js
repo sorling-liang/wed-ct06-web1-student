@@ -1,7 +1,8 @@
 // write your codes here
 /*
 canvas
-
+a rect
+if 5th variable, is 
 */
 
 // run once similar to "when green flag clicked"
