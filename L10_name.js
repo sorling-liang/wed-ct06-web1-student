@@ -1,4 +1,8 @@
 // write your codes here
+/*
+canvas
+
+*/
 
 // run once similar to "when green flag clicked"
 function setup() {
