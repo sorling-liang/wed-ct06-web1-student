@@ -8,7 +8,7 @@ just teach this class loh, walden is observant, see if he ask
 create input
 create color picker
 
-got 
+got concept like callback function to link
 */
 
 // run once similar to "when green flag clicked"
