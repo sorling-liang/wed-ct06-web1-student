@@ -99,5 +99,5 @@ function keyPressed() {
 }
 
 function mousePressed() {
-    clearInterval( objectId )
+    clearInterval( objectId );
 }
