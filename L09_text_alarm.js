@@ -73,9 +73,6 @@ function draw() {
 
     if (keyIsDown(32)) {
         soundfx.play();
-    }
-    else if (keyIsDown(49)) { // digit 1
-        counter--;
     } 
     else if (keyIsDown(DOWN_ARROW)) {
         soundfx.stop();
@@ -85,5 +82,8 @@ function draw() {
 function keyPressed() {
     if (keyCode === UP_ARROW) {
         bgColor = color( random(255), random(255), random(255) );
+    }
+    else if (keyCode === 49) {
+        counter--;
     }
 }
