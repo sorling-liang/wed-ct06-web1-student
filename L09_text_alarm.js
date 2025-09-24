@@ -111,6 +111,7 @@ function blinkBG() {
     blinkCounter++;
 
     if (blinkCounter === 5) {
-        
+        clearInterval( objectId ); // remove object
+
     }
 }
