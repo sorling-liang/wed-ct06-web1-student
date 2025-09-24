@@ -33,6 +33,7 @@ let bgColor = 220;
 let counter = 5;
 
 let objectId; // for creating interval timer
+let secondId; // for blinking bg
 
 function preload() {
    soundfx = loadSound("assets/bossaNova.mp3");
