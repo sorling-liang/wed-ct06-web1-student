@@ -59,4 +59,6 @@ function draw() {
     textSize(24);
     fill("red"); // text color
     text( "math.pi is "+ pi, width/2, height/2+ 50);
+    text( "math.pi is "+ pi, width/2, height/2+ 100);
+    text( "math.pi is "+ pi, width/2, height/2+ 150);
 }
