@@ -109,4 +109,8 @@ let blinkCounter = 0;
 
 function blinkBG() {
     blinkCounter++;
+
+    if (blinkCounter === 5) {
+        
+    }
 }
