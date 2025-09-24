@@ -46,6 +46,9 @@ function setup() {
     objectId = setInterval( doSomething, 1000 ); // milliseconds
 }
 
+function doSomething() {
+    
+}
 
 // forever loop
 function draw() {
