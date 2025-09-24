@@ -46,9 +46,6 @@ function setup() {
     objectId = setInterval( doSomething, 1000 ); // milliseconds
 }
 
-function doSomething() {
-    console.log("i am here");
-}
 
 // forever loop
 function draw() {
@@ -96,8 +93,4 @@ function keyPressed() {
         counter--; // shorthand   counter = counter - 1;
         counter = constrain(counter, 0, 5); // lesson 7 bouncing ball
     }
-}
-
-function mousePressed() {
-    clearInterval( objectId );
 }
