@@ -92,7 +92,6 @@ function keyPressed() {
 }
 
 function mousePressed() {
-    bgColor = color("red");
     objectId = setInterval( doSomething, 1000 ); // milliseconds
     //clearInterval( objectId );
 }
