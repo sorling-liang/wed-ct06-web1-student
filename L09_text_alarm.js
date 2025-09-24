@@ -29,7 +29,7 @@
 // }
 
 let soundfx;
-let bgColor;
+let bgColor =220;
 
 function preload() {
    soundfx = loadSound("assets/bossaNova.mp3");
@@ -37,7 +37,7 @@ function preload() {
 
 function setup() {
     createCanvas(400, 600);
-    background(220);
+    background(bgColor);
 }
 
 // forever loop
