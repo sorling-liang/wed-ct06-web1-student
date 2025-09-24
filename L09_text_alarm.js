@@ -80,9 +80,9 @@ function draw() {
     //     soundfx.stop();
     // } 
 
-    if (counter === 0) {
-        bgColor = color( random(255), random(255), random(255) );
-    }
+    // if (counter === 0) {
+    //     bgColor = color( random(255), random(255), random(255) );
+    // }
 }
 
 function keyPressed() {
