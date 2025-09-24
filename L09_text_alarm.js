@@ -28,6 +28,8 @@
 //     }
 // }
 
+let soundfx;
+
 function preload() {
    //??? get bossaNova mp3
 }
