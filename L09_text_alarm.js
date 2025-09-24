@@ -96,7 +96,6 @@ function keyPressed() {
 }
 
 function mousePressed() {
-        // temporary
     objectId = setInterval( doSomething, 1000 ); // milliseconds
-    clearInterval( objectId );
+    //clearInterval( objectId );
 }
