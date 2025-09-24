@@ -43,7 +43,7 @@ function setup() {
     background(bgColor);
 
     // temporary
-    objectId = setInterval( one, 1000 );
+    objectId = setInterval( one, 1000 ); // milliseconds
 }
 
 // forever loop
