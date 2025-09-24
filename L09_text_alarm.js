@@ -28,7 +28,10 @@
 //     }
 // }
 
-funct
+function preload() {
+   //??? get bossaNova mp3
+}
+
 function setup() {
     createCanvas(400, 600);
     background(220);
