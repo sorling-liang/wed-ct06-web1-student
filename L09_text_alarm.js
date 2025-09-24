@@ -99,6 +99,7 @@ function doSomething() {
 
     if (counter === 0) {
         clearInterval( objectId ); // remove object
+        
         soundfx.play(); // play the music
         secondId = setInterval( blinkBG, 500 );
         bgColor = color( random(255), random(255), random(255) );
@@ -113,6 +114,6 @@ function blinkBG() {
     
     if (blinkCounter === 5) {
         clearInterval( secondId ); // remove object
-
+        bgColor = 220;
     }
 }
