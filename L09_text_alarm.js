@@ -83,7 +83,7 @@ function keyPressed() {
     if (keyCode === UP_ARROW) {
         bgColor = color( random(255), random(255), random(255) );
     }
-    else if (keyCode === 49) {
+    else if (keyCode === 49) { // press digit 1
         counter--; // shorthand   counter = counter - 1;
     }
 }
