@@ -32,6 +32,8 @@ let soundfx;
 let bgColor = 220;
 let counter = 5;
 
+let objectId;
+
 function preload() {
    soundfx = loadSound("assets/bossaNova.mp3");
 }
