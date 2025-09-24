@@ -82,9 +82,9 @@ function draw() {
 }
 
 function keyPressed() {
-    if (keyCode === UP_ARROW) {
-        bgColor = color( random(255), random(255), random(255) );
-    }
+    // if (keyCode === UP_ARROW) {
+    //     bgColor = color( random(255), random(255), random(255) );
+    // }
 }
 
 function mousePressed() {
@@ -99,5 +99,6 @@ function doSomething() {
     if (counter === 0) {
         clearInterval( objectId ); // remove object
         soundfx.play(); // play the music
+        bgColor = color( random(255), random(255), random(255) );
     }
 }
