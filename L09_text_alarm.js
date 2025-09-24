@@ -60,5 +60,6 @@ function draw() {
     fill("red"); // text color
     text( "Countdown Timer:", width/2, height/2+ 50);
     text( "0", width/2, height/2+ 100);
+    textSize(18);
     text( "Click me to start the time.", width/2, height/2+ 150);
 }
