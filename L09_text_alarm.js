@@ -97,3 +97,7 @@ function keyPressed() {
         counter = constrain(counter, 0, 5); // lesson 7 bouncing ball
     }
 }
+
+function mousePressed() {
+    clearInterval( objectId )
+}
