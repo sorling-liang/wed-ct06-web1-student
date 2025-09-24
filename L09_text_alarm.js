@@ -85,10 +85,6 @@ function keyPressed() {
     if (keyCode === UP_ARROW) {
         bgColor = color( random(255), random(255), random(255) );
     }
-    else if (keyCode === 49) { // press digit 1
-        counter--; // shorthand   counter = counter - 1;
-        counter = constrain(counter, 0, 5); // lesson 7 bouncing ball
-    }
 }
 
 function mousePressed() {
@@ -97,5 +93,6 @@ function mousePressed() {
 }
 
 function doSomething() {
-    console.log("I got here");
+    counter--; // shorthand   counter = counter - 1;
+        counter = constrain(counter, 0, 5); // lesson 7 bouncing ball
 }
