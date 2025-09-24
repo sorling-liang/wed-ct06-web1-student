@@ -108,5 +108,5 @@ function doSomething() {
 let blinkCounter = 0;
 
 function blinkBG() {
-
+    blinkCounter++;
 }
