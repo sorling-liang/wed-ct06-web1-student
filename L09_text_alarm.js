@@ -51,6 +51,7 @@ function draw() {
 
     textAlign(CENTER, CENTER);
     textSize(48);
+    fill("black");
     text( timeNow, width/2, height/2 );
 
     let pi = 3.141591234567;
