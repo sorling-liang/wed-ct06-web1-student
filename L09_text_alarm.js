@@ -42,7 +42,7 @@ function setup() {
 
 // forever loop
 function draw() {
-    background(220);
+    background(bgColor);
 
     // show a clock
     let hourNumber = hour(); // 24-hour clock
