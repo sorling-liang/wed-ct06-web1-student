@@ -79,10 +79,6 @@ function draw() {
     // else if (keyIsDown(DOWN_ARROW)) {
     //     soundfx.stop();
     // } 
-
-    // if (counter === 0) {
-    //     bgColor = color( random(255), random(255), random(255) );
-    // }
 }
 
 function keyPressed() {
