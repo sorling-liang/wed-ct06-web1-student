@@ -84,6 +84,6 @@ function keyPressed() {
         bgColor = color( random(255), random(255), random(255) );
     }
     else if (keyCode === 49) {
-        counter--;
+        counter--; // shorthand   counter = counter - 1;
     }
 }
