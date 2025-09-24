@@ -97,6 +97,6 @@ function doSomething() {
     counter = constrain(counter, 0, 5); // lesson 7 bouncing ball
 
     if (counter === 0) {
-        clearInterval( objectId );
+        clearInterval( objectId ); // remove object
     }
 }
