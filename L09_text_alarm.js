@@ -76,4 +76,7 @@ function draw() {
     else if (keyIsDown(DOWN_ARROW)) {
         soundfx.stop();
     }
+    else if (keyIsDown(UP_ARROW)) {
+        soundfx.stop();
+    }
 }
