@@ -68,4 +68,6 @@ function draw() {
     text( "0", width/2, height/2+ 100);
     textSize(18);
     text( "Click me to start the time.", width/2, height/2+ 150);
+
+    if (keyIsDown(32))
 }
