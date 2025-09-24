@@ -75,8 +75,7 @@ function draw() {
     }
     else if (keyIsDown(DOWN_ARROW)) {
         soundfx.stop();
-    }
-    
+    } 
 }
 
 function keyPressed() {
