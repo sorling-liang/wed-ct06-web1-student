@@ -39,13 +39,13 @@ function draw() {
 
     // show a clock
     let hourNumber = hour(); // 24-hour clock
-    hourNumber = nf(hourNumber, 4); // format the number to a 2-digit number
+    hourNumber = nf(hourNumber, 2); // format the number to a 2-digit number
     
     let minuteNumber = minute();
-    minuteNumber = nf(minuteNumber, 4);
+    minuteNumber = nf(minuteNumber, 2);
 
     let secondNumber = second();
-    secondNumber = nf(secondNumber, 4);
+    secondNumber = nf(secondNumber, 2);
 
     let timeNow = hourNumber + ":" + minuteNumber + ":" + secondNumber;
 
