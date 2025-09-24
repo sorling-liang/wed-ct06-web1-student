@@ -31,7 +31,7 @@
 let soundfx;
 
 function preload() {
-   //??? get bossaNova mp3
+   soundfx = loadSound("assets/");
 }
 
 function setup() {
