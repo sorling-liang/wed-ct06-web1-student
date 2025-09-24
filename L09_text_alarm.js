@@ -41,9 +41,6 @@ function preload() {
 function setup() {
     createCanvas(400, 600);
     background(bgColor);
-
-    // temporary
-    objectId = setInterval( doSomething, 1000 ); // milliseconds
 }
 
 function doSomething() {
@@ -99,5 +96,7 @@ function keyPressed() {
 }
 
 function mousePressed() {
+        // temporary
+    objectId = setInterval( doSomething, 1000 ); // milliseconds
     clearInterval( objectId );
 }
