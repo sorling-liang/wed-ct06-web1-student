@@ -78,6 +78,6 @@ function draw() {
     }
     else if (keyIsDown(UP_ARROW)) {
         //                  red       green          blue
-        bgColor = color( random(255), random(255), random(255) );
+        bgColor = color( random(0, 255), random(255), random(255) );
     }
 }
