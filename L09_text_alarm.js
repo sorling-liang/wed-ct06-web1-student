@@ -81,3 +81,9 @@ function draw() {
         bgColor = color( random(255), random(255), random(255) );
     }
 }
+
+function keyPressed() {
+    if (keyCode === UP_ARROW) {
+        
+    }
+}
