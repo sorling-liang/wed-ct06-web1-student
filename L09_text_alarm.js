@@ -85,6 +85,6 @@ function keyPressed() {
     }
     else if (keyCode === 49) { // press digit 1
         counter--; // shorthand   counter = counter - 1;
-        counter = constrain(counter, 0, 5);
+        counter = constrain(counter, 0, 5); // lesson 7 bouncing ball
     }
 }
