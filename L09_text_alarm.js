@@ -94,5 +94,5 @@ function mousePressed() {
 
 function doSomething() {
     counter--; // shorthand   counter = counter - 1;
-        counter = constrain(counter, 0, 5); // lesson 7 bouncing ball
+    counter = constrain(counter, 0, 5); // lesson 7 bouncing ball
 }
