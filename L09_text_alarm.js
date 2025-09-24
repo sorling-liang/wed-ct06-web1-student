@@ -98,6 +98,6 @@ function doSomething() {
 
     if (counter === 0) {
         clearInterval( objectId ); // remove object
-        soundfx.play();
+        soundfx.play(); // play the music
     }
 }
