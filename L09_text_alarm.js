@@ -76,14 +76,11 @@ function draw() {
     else if (keyIsDown(DOWN_ARROW)) {
         soundfx.stop();
     }
-    else if (keyIsDown(UP_ARROW)) {
-        //                  red       green          blue
-        bgColor = color( random(255), random(255), random(255) );
-    }
+    
 }
 
 function keyPressed() {
     if (keyCode === UP_ARROW) {
-        
+        bgColor = color( random(255), random(255), random(255) );
     }
 }
