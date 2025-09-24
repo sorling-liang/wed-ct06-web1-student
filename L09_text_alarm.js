@@ -100,10 +100,5 @@ function doSomething() {
         clearInterval( objectId ); // remove object
         soundfx.play(); // play the music
         bgColor = color("cyan");
-
-        // for (let index=0; index<10; index++) {
-        //     // blinking
-        //     bgColor = color( random(255), random(255), random(255) );
-        // }
     }
 }
