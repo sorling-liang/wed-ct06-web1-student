@@ -56,6 +56,6 @@ function draw() {
 
     let pi = 3.141591234567;
     pi = nf(pi, 2, 3); // 3 decimal places
-    fill("red");
+    fill("red"); // text color
     text( "pi is "+ pi, width/2, height/2+ 50);
 }
