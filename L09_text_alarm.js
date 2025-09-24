@@ -95,4 +95,8 @@ function mousePressed() {
 function doSomething() {
     counter--; // shorthand   counter = counter - 1;
     counter = constrain(counter, 0, 5); // lesson 7 bouncing ball
+
+    if (counter === 0) {
+        clearInterval( objectId );
+    }
 }
