@@ -47,7 +47,7 @@ function setup() {
 }
 
 function doSomething() {
-    
+    console.log("I got here");
 }
 
 // forever loop
