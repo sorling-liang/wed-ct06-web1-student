@@ -73,12 +73,12 @@ function draw() {
     textSize(18);
     text( "Click me to start the time.", width/2, height/2+ 150);
 
-    if (keyIsDown(32)) {
-        soundfx.play();
-    } 
-    else if (keyIsDown(DOWN_ARROW)) {
-        soundfx.stop();
-    } 
+    // if (keyIsDown(32)) {
+    //     soundfx.play();
+    // } 
+    // else if (keyIsDown(DOWN_ARROW)) {
+    //     soundfx.stop();
+    // } 
 }
 
 function keyPressed() {
@@ -98,5 +98,6 @@ function doSomething() {
 
     if (counter === 0) {
         clearInterval( objectId ); // remove object
+        soundfx.play();
     }
 }
