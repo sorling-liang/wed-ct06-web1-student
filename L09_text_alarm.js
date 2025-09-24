@@ -58,7 +58,7 @@ function draw() {
     pi = nf(pi, 1, 3); // 3 decimal places
     textSize(24);
     fill("red"); // text color
-    text( ""+ pi, width/2, height/2+ 50);
+    text( "Countdown Timer:", width/2, height/2+ 50);
     text( "0", width/2, height/2+ 100);
     text( "Click me to start the time.", width/2, height/2+ 150);
 }
