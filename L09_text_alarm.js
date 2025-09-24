@@ -43,10 +43,6 @@ function setup() {
     background(bgColor);
 }
 
-function doSomething() {
-    console.log("I got here");
-}
-
 // forever loop
 function draw() {
     background(bgColor);
@@ -98,4 +94,8 @@ function keyPressed() {
 function mousePressed() {
     objectId = setInterval( doSomething, 1000 ); // milliseconds
     //clearInterval( objectId );
+}
+
+function doSomething() {
+    console.log("I got here");
 }
