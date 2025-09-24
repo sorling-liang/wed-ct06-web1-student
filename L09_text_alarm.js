@@ -77,7 +77,7 @@ function draw() {
         soundfx.stop();
     }
     else if (keyIsDown(UP_ARROW)) {
-        //                  red         green        blue
+        //                  red       green     blue
         bgColor = color( random(255), 0, random(255) );
     }
 }
