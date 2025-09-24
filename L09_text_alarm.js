@@ -74,7 +74,7 @@ function draw() {
     if (keyIsDown(32)) {
         soundfx.play();
     }
-    else if (keyIsDown()) {
+    else if (keyIsDown(49)) { // digit 1
         soundfx.stop();
     } 
     else if (keyIsDown(DOWN_ARROW)) {
