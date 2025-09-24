@@ -55,7 +55,7 @@ function draw() {
     text( timeNow, width/2, height/2 );
 
     let pi = 3.141591234567;
-    pi = nf(pi, 2, 3); // 3 decimal places
+    pi = nf(pi, 1, 3); // 3 decimal places
     fill("red"); // text color
     text( "pi is "+ pi, width/2, height/2+ 50);
 }
