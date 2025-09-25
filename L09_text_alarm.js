@@ -42,7 +42,7 @@ function preload() {
 function setup() {
     createCanvas(400, 600);
     background(bgColor);
-    userStartAudio(); // 
+    userStartAudio(); // when is this needed? only for Safari
 }
 
 // forever loop
