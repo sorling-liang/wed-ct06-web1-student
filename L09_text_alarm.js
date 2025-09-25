@@ -107,6 +107,9 @@ function doSomething() {
     }
 }
 
+/*
+makes sense for a second interval
+*/
 let blinkCounter = 0;
 
 function blinkBG() {
