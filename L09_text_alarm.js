@@ -108,7 +108,8 @@ function doSomething() {
 }
 
 /*
-makes sense for a second interval
+makes sense for a second interval() to let them practice
+using it
 */
 let blinkCounter = 0;
 
