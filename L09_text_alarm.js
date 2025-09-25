@@ -83,14 +83,15 @@ function draw() {
 }
 
 function keyPressed() {
-    // if (keyCode === UP_ARROW) {
-    //     bgColor = color( random(255), random(255), random(255) );
-    // }
+    if (keyCode === UP_ARROW) {
+        soundfx.play();
+    }
 }
 
 function mousePressed() {
-    objectId = setInterval( doSomething, 1000 ); // milliseconds
-    //clearInterval( objectId );
+    if (counter > 0 ) {
+        objectId = setInterval( doSomething, 1000 ); // milliseconds
+    }
 }
 
 function doSomething() {
@@ -99,7 +100,6 @@ function doSomething() {
 
     if (counter === 0) {
         clearInterval( objectId ); // remove object
-        
         soundfx.play(); // play the music
         secondId = setInterval( blinkBG, 500 );
         bgColor = color( random(255), random(255), random(255) );
@@ -112,7 +112,7 @@ function blinkBG() {
     blinkCounter++;
     bgColor = color( random(255), random(255), random(255) );
     
-    if (blinkCounter === 5) {
+    if (blinkCounter === 10) {
         clearInterval( secondId ); // remove object
         bgColor = 220;
     }
