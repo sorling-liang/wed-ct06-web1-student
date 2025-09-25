@@ -42,6 +42,7 @@ function preload() {
 function setup() {
     createCanvas(400, 600);
     background(bgColor);
+    userStartAudio();
 }
 
 // forever loop
