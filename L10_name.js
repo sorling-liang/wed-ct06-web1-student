@@ -17,5 +17,6 @@ function draw() {
     fill("white");
     //                    rounded
     rect(100,100,400,155, 25);
+    fill("black");
     text("Your name", width/2, 150);
 }
