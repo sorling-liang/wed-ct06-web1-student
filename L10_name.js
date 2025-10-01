@@ -10,7 +10,7 @@ function setup() {
     background(bgColor);
 
     colorPicker = createColorPicker(bgColor);
-    colorPicker.position( width/2-25, height/2+50 );
+    colorPicker.position( width/2, height/2+50 );
 
     userInput = createInput();
     userInput.position( width/2, height/2+100)
@@ -35,7 +35,7 @@ function draw() {
 
     textSize(20);
     textAlign(RIGHT, CENTER);
-    text("Choose background:", width/2-20, height/2+60)
+    text("Choose background:", width/2-10, height/2+60)
 
     text("Your name:", width/2-20, height/2+110)
 }
