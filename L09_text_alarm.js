@@ -103,7 +103,6 @@ function doSomething() {
         clearInterval( objectId ); // remove object
         soundfx.play(); // play the music
         secondId = setInterval( blinkBG, 500 ); // 0.5 second
-        bgColor = color( random(255), random(255), random(255) );
     }
 }
 
