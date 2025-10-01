@@ -8,7 +8,7 @@ function setup() {
     background(bgColor);
 
     colorPicker = createColorPicker();
-    colorPicker.position( width/2, y );
+    colorPicker.position( width/2, height/2 );
 }
 
 // forever block
