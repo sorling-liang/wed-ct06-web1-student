@@ -9,7 +9,7 @@ function setup() {
     createCanvas(600, 600);
     background(bgColor);
 
-    colorPicker = createColorPicker();
+    colorPicker = createColorPicker(bgColor);
     colorPicker.position( width/2-25, height/2+50 );
 
     userInput = createInput();
