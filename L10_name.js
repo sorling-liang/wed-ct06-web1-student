@@ -13,7 +13,7 @@ function setup() {
     colorPicker.position( width/2-25, height/2+50 );
 
     userInput = createInput();
-    userInput.position(width/2-25, height/2+150)
+    userInput.position(  width/2-25, height/2+100)
 }
 
 // forever block
