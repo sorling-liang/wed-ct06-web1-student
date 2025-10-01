@@ -11,5 +11,5 @@ function setup() {
 function draw() {
     fill("white");
     //                    rounded
-    rect(100,100,400,200, 25);
+    rect(100,100,400,200, 100);
 }
