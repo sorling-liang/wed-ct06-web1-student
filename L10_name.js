@@ -34,5 +34,5 @@ function draw() {
     text(username, width/2, 150);
 
     textAlign(RIGHT, CENTER);
-    text("Your name:", )
+    text("Your name:", width/2-20, height/2+100)
 }
