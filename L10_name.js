@@ -1,15 +1,4 @@
 // write your codes here
-/*
-canvas
-a rect
-if 5th variable, is radius of how rounded corner
-just teach this class loh, walden is observant, see if he ask
-
-create input
-create color picker
-
-got concept like callback function to link
-*/
 
 // run once similar to "when green flag clicked"
 function setup() {
