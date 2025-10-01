@@ -6,6 +6,8 @@ let colorPicker;
 function setup() {
     createCanvas(600, 600);
     background(bgColor);
+
+    colorPicker = createColorPicker();
 }
 
 // forever block
