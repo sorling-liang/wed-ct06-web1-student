@@ -36,6 +36,5 @@ function draw() {
     textSize(20);
     textAlign(RIGHT, CENTER);
     text("Choose background:", width/2-10, height/2+60)
-
-    text("Your name:", width/2-20, height/2+110)
+    text("Your name:", width/2-10, height/2+110)
 }
