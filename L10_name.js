@@ -3,6 +3,7 @@ let bgColor = "skyblue";
 let colorPicker;
 let username = "Mr David";
 let userInput;
+// challenge
 let yourage = 15;
 let ageInput;
 
