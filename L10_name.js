@@ -1,6 +1,7 @@
 // write your codes here
 let bgColor = "skyblue";
 let colorPicker;
+let username = "Mr David";
 
 // run once similar to "when green flag clicked"
 function setup() {
