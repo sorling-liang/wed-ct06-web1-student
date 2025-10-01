@@ -18,7 +18,7 @@ function setup() {
 }
 
 function updateLabel() {
-
+    username = u
 }
 
 // forever block
