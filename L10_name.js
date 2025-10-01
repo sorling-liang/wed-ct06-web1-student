@@ -21,11 +21,15 @@ function setup() {
 
     ageInput = createInput();
     ageInput.position( width/2, height/2+150);
-    ageInput.
+    ageInput.input(updateYourAge);
 }
 
 function updateLabel() {
     username = userInput.value();
+}
+
+function updateYourAge() {
+    age = ageInput.value();
 }
 
 // forever block
