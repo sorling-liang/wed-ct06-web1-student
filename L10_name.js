@@ -3,6 +3,8 @@ let bgColor = "skyblue";
 let colorPicker;
 let username = "Mr David";
 let userInput;
+let yourage = 15;
+let ageInput;
 
 // run once similar to "when green flag clicked"
 function setup() {
