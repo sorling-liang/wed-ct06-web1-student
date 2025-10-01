@@ -15,7 +15,7 @@ function setup() {
     colorPicker = createColorPicker(bgColor);
     colorPicker.position( width/2, height/2+50 );
 
-    userInput = createInput(username,"text");
+    userInput = createInput(username,"time");
     userInput.position( width/2, height/2+100)
     userInput.input(updateLabel);
 
