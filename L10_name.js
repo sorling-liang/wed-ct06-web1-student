@@ -16,9 +16,11 @@ function setup() {
     userInput.position(          100, height/2+100)
     userInput.input(updateLabel);
 }
+
 function updateLabel() {
-    
+
 }
+
 // forever block
 function draw() {
     background( colorPicker.value() );
