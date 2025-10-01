@@ -13,7 +13,7 @@ function setup() {
 
 // forever block
 function draw() {
-    
+    background( colorPicker.value() );
     fill("white");
     //                    rounded
     rect(100,100,400,155, 25);
