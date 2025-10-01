@@ -34,6 +34,7 @@ function draw() {
     text(username, width/2, 150);
 
     textSize(20);
+    // display label for fields
     textAlign(RIGHT, CENTER);
     text("Choose background:", width/2-10, height/2+60)
     text("Your name:",         width/2-10, height/2+110)
