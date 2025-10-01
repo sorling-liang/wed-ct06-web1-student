@@ -38,6 +38,7 @@ function draw() {
     //          X      Y
     textAlign(CENTER, CENTER);
     text(username, width/2, 150);
+    text(age, width/2, 170);
 
     textSize(20);
     // display label for fields
