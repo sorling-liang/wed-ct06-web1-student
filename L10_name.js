@@ -9,5 +9,5 @@ function setup() {
 
 // forever block
 function draw() {
-
+    rect(100,100,)
 }
