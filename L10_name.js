@@ -9,5 +9,6 @@ function setup() {
 
 // forever block
 function draw() {
-    rect(100,100,)
+    fill("white");
+    rect(100,100,400,200);
 }
