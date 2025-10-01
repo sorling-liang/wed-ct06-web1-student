@@ -89,7 +89,7 @@ function keyPressed() {
 }
 
 function mousePressed() {
-    if (counter == 10 ) {
+    if (counter === 10) {
         objectId = setInterval( doSomething, 1000 ); // milliseconds
         userStartAudio(); // when is this needed? only for Safari
     }
