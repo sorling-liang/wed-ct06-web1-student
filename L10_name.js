@@ -50,6 +50,6 @@ function draw() {
     textAlign(RIGHT, CENTER);
     text("Choose background:", width/2-10, height/2+60)
     text("Your name:",         width/2-10, height/2+110)
-    text("Your age:",         width/2-10, height/2+130)
+    text("Your age:",         width/2-10, height/2+160)
 
 }
