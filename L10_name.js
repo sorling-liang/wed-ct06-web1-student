@@ -33,6 +33,7 @@ function draw() {
     textAlign(CENTER, CENTER);
     text(username, width/2, 150);
 
+    textSize(20);
     textAlign(RIGHT, CENTER);
     text("Your name:", width/2-20, height/2+100)
 }
