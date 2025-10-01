@@ -14,6 +14,7 @@ function setup() {
 
     userInput = createInput();
     userInput.position(          100, height/2+100)
+    userInput.input(updateLabel);
 }
 
 // forever block
