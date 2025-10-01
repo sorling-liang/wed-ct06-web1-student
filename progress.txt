@@ -1,3 +1,19 @@
+/*
+canvas
+a rect
+if 5th variable, is radius of how rounded corner
+just teach this class loh, walden is observant, see if he ask
+
+create input
+create color picker
+
+got concept like callback function to link
+*/
+
+Lesson 9 (today)
+Lesson 9 (today)
+Lesson 10 (today)
+
 Lesson 9 (today)
 completed L07_bouncingball
 did quizizz
