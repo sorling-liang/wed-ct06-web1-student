@@ -20,6 +20,10 @@ function setup() {
     button1.mousePressed(updateStory); // connect
 }
 
+function updateStory() {
+
+}
+
 // forever block
 function draw() {
 
