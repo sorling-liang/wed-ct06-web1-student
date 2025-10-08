@@ -25,6 +25,7 @@ function updateStory() {
 
     textAlign(CENTER, CENTER);
     // draw the text on the canvas for me
+    textSize(32);
     text(story, 50, 250);
 }
 
