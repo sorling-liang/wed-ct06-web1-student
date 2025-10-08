@@ -10,7 +10,7 @@ function setup() {
 
     // create a text input
     inputNoun = createInput(story, "text");
-inputNoun    // inputSomeText.size(350);
+    inputNoun.position(width/2, 50);
 
     // i will teach create a button
     button1 = createButton("Generate Story");
@@ -20,7 +20,7 @@ inputNoun    // inputSomeText.size(350);
 }
 
 function updateStory() {
-    console.log();
+    console.log(inputNoun.value());
 }
 
 // forever block
