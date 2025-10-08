@@ -15,7 +15,7 @@ function setup() {
 
     // i will teach create a button
     button1 = createButton("Click on Me");
-    button1.
+    button1.position(50,100);
 }
 
 // forever block
