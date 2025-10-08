@@ -36,5 +36,4 @@ function draw() {
     textSize(14);
     text("Enter a noun:", width/2-20, 60);
     text("Enter a verb:", width/2-20, 90);
-
 }
