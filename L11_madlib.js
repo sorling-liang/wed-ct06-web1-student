@@ -21,6 +21,7 @@ function setup() {
 }
 
 function updateStory() {
+    background("skyblue"); // erase
     story = inputSomeText.value();
 
     textAlign(CENTER, CENTER);
