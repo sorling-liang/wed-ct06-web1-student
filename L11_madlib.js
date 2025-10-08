@@ -14,7 +14,7 @@ function setup() {
     // inputSomeText.size(350);
 
     // i will teach create a button
-    button1 = createButton("Click on Me");
+    button1 = createButton("Generate Story");
     button1.position(width/2, 100);
     button1.size(100, 50);
     button1.mousePressed(updateStory); // connection
@@ -33,6 +33,6 @@ function updateStory() {
 function draw() {
     fill("black");
     textAlign(RIGHT, CENTER);
-    textSize(18);
+    textSize(14);
     text("Enter a noun:", width/2-20, 60);
 }
