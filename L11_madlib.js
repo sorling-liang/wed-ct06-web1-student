@@ -34,5 +34,5 @@ function draw() {
     fill("black");
     textAlign(RIGHT, CENTER);
     textSize(18);
-    text("Enter a noun:", width/2-20, 300);
+    text("Enter a noun:", width/2-20, 80);
 }
