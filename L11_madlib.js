@@ -24,7 +24,6 @@ function updateStory() {
     story = inputSomeText.value();
 
     textAlign(CENTER, CENTER);
-    // draw the text on the canvas for me
     textSize(28);
     text(story, width/2, 250);
 }
