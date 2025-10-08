@@ -21,7 +21,7 @@ function setup() {
 }
 
 function updateStory() {
-
+    story = inputSomeText.value();
 }
 
 // forever block
