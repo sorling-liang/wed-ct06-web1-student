@@ -11,7 +11,7 @@ function setup() {
     // create a text input
     inputSomeText = createInput(story, "text");
     inputSomeText.position(50,50);
-    inputSomeText.size(500, 100);
+    inputSomeText.size(350);
 
     // i will teach create a button
 }
