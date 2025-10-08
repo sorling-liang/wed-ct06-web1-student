@@ -21,7 +21,6 @@ function setup() {
 }
 
 function updateStory() {
-    background("skyblue"); // erase
     story = inputSomeText.value();
 
     textAlign(CENTER, CENTER);
@@ -31,6 +30,7 @@ function updateStory() {
 
 // forever block
 function draw() {
+    background("skyblue"); // erase
     fill("black");
     textAlign(RIGHT, CENTER);
     textSize(14);
