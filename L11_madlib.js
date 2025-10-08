@@ -1,6 +1,7 @@
 // write your codes here
 let inputSomeText;
 let button1;
+let story;
 
 // run once similar to "when green flag clicked"
 function setup() {
