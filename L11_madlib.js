@@ -9,7 +9,7 @@ function setup() {
     background("skyblue");
 
     // create a text input
-    inputSomeText = createInput(story)
+    inputSomeText = createInput(story, "text");
 
     // i will teach create a button
 }
