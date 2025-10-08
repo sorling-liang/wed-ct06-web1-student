@@ -9,6 +9,7 @@ function setup() {
     background("skyblue");
 
     // create a text input
+    in
 
     // i will teach create a button
 }
