@@ -1,7 +1,7 @@
 // write your codes here
 let inputSomeText;
 let button1;
-let story;
+let story = "long long long time ago...";
 
 // run once similar to "when green flag clicked"
 function setup() {
@@ -9,7 +9,7 @@ function setup() {
     background("skyblue");
 
     // create a text input
-    in
+    inputSomeText = createInput(story)
 
     // i will teach create a button
 }
