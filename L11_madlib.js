@@ -32,5 +32,6 @@ function updateStory() {
 // forever block
 function draw() {
     fill("black");
-    text
+    textAlign(RIGHT, CENTER);
+    textSize(14);
 }
