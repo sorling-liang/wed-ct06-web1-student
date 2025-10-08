@@ -13,7 +13,8 @@ function setup() {
     inputNoun = createInput("e.g. dog", "text");
     inputNoun.position(width/2, 50);
 
-    inputVerb = createInput("e.g. jump")
+    inputVerb = createInput("e.g. jump");
+    inputVerb.position(width/2, 100);
 
     // i will teach create a button
     button1 = createButton("Generate Story");
