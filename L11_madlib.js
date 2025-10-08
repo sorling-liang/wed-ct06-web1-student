@@ -25,7 +25,7 @@ function setup() {
 
 function updateStory() {
     console.log(inputNoun.value());
-    console.log(inputNoun.value());
+    console.log(inputVerb.value());
 }
 
 // forever block
