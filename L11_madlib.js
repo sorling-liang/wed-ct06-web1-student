@@ -31,5 +31,5 @@ function updateStory() {
 
 // forever block
 function draw() {
-
+    fill("black");
 }
