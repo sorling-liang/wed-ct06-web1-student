@@ -1,5 +1,5 @@
 // write your codes here
-let inputSomeText;
+let inputNoun;
 let button1;
 let story = "long long long time ago...";
 
@@ -9,9 +9,8 @@ function setup() {
     background("skyblue");
 
     // create a text input
-    inputSomeText = createInput(story, "text");
-    inputSomeText.position(width/2, 50);
-    // inputSomeText.size(350);
+    inputNoun = createInput(story, "text");
+inputNoun    // inputSomeText.size(350);
 
     // i will teach create a button
     button1 = createButton("Generate Story");
