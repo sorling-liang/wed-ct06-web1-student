@@ -24,6 +24,8 @@ function updateStory() {
     story = inputSomeText.value();
 
     textAlign(CENTER, CENTER);
+    // draw the text on the canvas for me
+    text(story, 50, 250);
 }
 
 // forever block
