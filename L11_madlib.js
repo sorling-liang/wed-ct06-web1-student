@@ -14,6 +14,8 @@ function setup() {
     inputSomeText.size(350);
 
     // i will teach create a button
+    button1 = createButton("Click on Me");
+    button1.
 }
 
 // forever block
