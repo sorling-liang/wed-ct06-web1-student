@@ -1,6 +1,7 @@
 // write your codes here
 let inputNoun;
 let inputVerb;
+
 let button1;
 let story = "long long long time ago...";
 
