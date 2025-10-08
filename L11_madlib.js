@@ -7,6 +7,10 @@ let story;
 function setup() {
     createCanvas(600, 400);
     background("skyblue");
+
+    // create a text input
+
+    // i will teach create a button
 }
 
 // forever block
