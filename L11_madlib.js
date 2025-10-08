@@ -14,11 +14,11 @@ function setup() {
     inputNoun.position(width/2, 50);
 
     inputVerb = createInput("e.g. jump");
-    inputVerb.position(width/2, 100);
+    inputVerb.position(width/2, 80);
 
     // i will teach create a button
     button1 = createButton("Generate Story");
-    button1.position(width/2, 100);
+    button1.position(width/2, 120);
     button1.size(100, 50);
     button1.mousePressed(updateStory); // connection
 }
