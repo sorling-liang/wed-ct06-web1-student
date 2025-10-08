@@ -25,8 +25,8 @@ function updateStory() {
 
     textAlign(CENTER, CENTER);
     // draw the text on the canvas for me
-    textSize(32);
-    text(story, 50, 250);
+    textSize(28);
+    text(story, width/2, 250);
 }
 
 // forever block
