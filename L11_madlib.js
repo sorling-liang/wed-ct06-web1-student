@@ -33,5 +33,6 @@ function updateStory() {
 function draw() {
     fill("black");
     textAlign(RIGHT, CENTER);
-    textSize(14);
+    textSize(18);
+    text("Enter a noun:", )
 }
