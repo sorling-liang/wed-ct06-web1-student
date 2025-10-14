@@ -1,6 +1,7 @@
+Lesson 15 (today)
 Lesson 14 (last week)
 
-Lesson 13 (today)
+Lesson 13 (1-oct)
 
 /*
 canvas
