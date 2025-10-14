@@ -1,7 +1,11 @@
 Lesson 15 (today)
 
 Lesson 14 (last week)
+started on L11 madlib
+they were curious what is madlib
 
+
+###########################
 Lesson 13 (1-oct)
 
 /*
