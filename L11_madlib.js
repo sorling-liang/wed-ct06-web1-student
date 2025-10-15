@@ -36,6 +36,9 @@ function setup() {
     button1.position(width/2, 210);
     //button1.size(100, 50);
     button1.mousePressed(updateStory); // connection
+
+
+    templates = []; // array of value
 }
 
 function updateStory() {
