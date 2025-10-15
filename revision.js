@@ -12,7 +12,7 @@ function draw() {
     xpos = xpos + velocity;
 
     if (xpos > width) {
-        velocity = ??
+        velocity = velocity * -1;
     }
-
+    if (xpos < 0)
 }
