@@ -52,6 +52,8 @@ function setup() {
     story = story.replace(    "{verb}",      "dance");
     story = story.replace(    "{adverb}",    "beautifully");
     story = story.replace(    "{place}",     "principal's office");
+
+    console.log("story is")
 }
 
 function updateStory() {
