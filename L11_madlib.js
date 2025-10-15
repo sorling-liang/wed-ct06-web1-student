@@ -27,7 +27,7 @@ function setup() {
     inputAdverb.position(width/2, 140);
 
     inputplace = createInput("e.g. jump");
-    inputplace.position(width/2, 80);
+    inputplace.position(width/2, 170);
 
     // i will teach create a button
     button1 = createButton("Generate Story");
