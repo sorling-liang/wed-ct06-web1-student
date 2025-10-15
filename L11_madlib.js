@@ -56,5 +56,6 @@ function draw() {
     text("Enter an adverb:", width/2-20, 150);
     text("Enter a place:", width/2-20, 180);
 
-    fill("")
+    fill("white");
+    rect(50,50,100,100,15);
 }
