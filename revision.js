@@ -1,5 +1,5 @@
 let xpos = 60;
-let velocity = 5;
+let velocity = 15;
 
 function setup() {
     createCanvas(600,400);
@@ -14,5 +14,7 @@ function draw() {
     if (xpos > width) {
         velocity = velocity * -1;
     }
-    if (xpos < 0)
+    if (xpos < 0) {
+        velocity = velocity * -1;
+    }
 }
