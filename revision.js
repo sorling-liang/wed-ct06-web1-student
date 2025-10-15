@@ -13,7 +13,7 @@ function setup() {
     background("indigo");
 
     for (let index=0; index<names.length; index++) {
-        
+        text(names[index], width/2, )
     }
 }
 
