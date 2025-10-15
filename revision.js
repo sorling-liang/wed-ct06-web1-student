@@ -1,12 +1,7 @@
 let xpos = 60;
 let velocity = 15;
 let names = [
-    "walden",
-    "winston",
-    "darissa",
-    "guhaan",
-    "natalie",
-    "tommy"
+    "walden",    "winston",    "darissa",    "guhaan",    "natalie",    "tommy"
 ];
 
 function setup() {
