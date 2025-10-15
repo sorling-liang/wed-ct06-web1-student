@@ -37,7 +37,7 @@ function draw() {
     textSize(14);
     text("Enter a noun:", width/2-20, 60);
     text("Enter a verb:", width/2-20, 90);
-    text("Enter a adjertive:", width/2-20, 90);
-    text("Enter a adverb:", width/2-20, 90);
+    text("Enter a adjective:", width/2-20, 120);
+    text("Enter a adverb:", width/2-20, 150);
     text("Enter a place:", width/2-20, 90);
 }
