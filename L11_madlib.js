@@ -62,6 +62,13 @@ function updateStory() {
     console.log(inputAdjective.value());
     console.log(inputAdverb.value());
     console.log(inputPlace.value());
+    
+    story = selection.replace("{adjective}", inputAdjective.vale);
+    story = story.replace(    "{noun}",      "granny");
+    story = story.replace(    "{verb}",      "dance");
+    story = story.replace(    "{adverb}",    "beautifully");
+    story = story.replace(    "{place}",     "principal's office");
+
 }
 
 // forever block
