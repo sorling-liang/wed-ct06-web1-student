@@ -66,7 +66,7 @@ function updateStory() {
     story = selection.replace("{adjective}", inputAdjective.value());
     story = story.replace(    "{noun}",      inputNoun.value());
     story = story.replace(    "{verb}",      inputVerb.value());
-    story = story.replace(    "{adverb}",    "beautifully");
+    story = story.replace(    "{adverb}",    inputAdverb.value());
     story = story.replace(    "{place}",     "principal's office");
 
 }
