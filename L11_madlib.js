@@ -50,6 +50,7 @@ function setup() {
     story = selection.replace("{adjective}", "tall");
     story = story.replace(    "{noun}",      "granny");
     story = story.replace(    "{verb}",      "dance");
+    story = story.replace(    "{adverb}",    "dance");
     story = story.replace(    "{place}",     "principal's office");
 }
 
