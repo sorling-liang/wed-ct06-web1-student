@@ -40,8 +40,8 @@ function updateStory() {
     console.log(inputNoun.value());
     console.log(inputVerb.value());
     console.log(inputNoun.value());
-    console.log(inputVerb.value());
-    console.log(inputVerb.value());
+    console.log(inputAdverb.value());
+    console.log(inputPlace.value());
 }
 
 // forever block
