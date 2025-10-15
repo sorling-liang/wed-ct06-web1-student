@@ -23,7 +23,7 @@ function setup() {
     inputAdjective = createInput("e.g. tall");
     inputAdjective.position(width/2, 110);
 
-    inputAdverb = createInput("e.g. jump");
+    inputAdverb = createInput("e.g. angrily");
     inputAdverb.position(width/2, 140);
 
     inputplace = createInput("e.g. jump");
