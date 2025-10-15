@@ -86,9 +86,9 @@ function draw() {
 
     fill("white");
     noStroke();
-    rect(50,300,500,200,25);
+    rect(50,300,500,200,25); // rounded rectangle
     fill("black");
     textSize(14);
     textAlign(CENTER, CENTER);
-    text(story,width/2, height/2+80);
+    text(story, width/2, height/2+80);
 }
