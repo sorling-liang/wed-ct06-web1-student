@@ -53,7 +53,7 @@ function setup() {
     story = story.replace(    "{adverb}",    "beautifully");
     story = story.replace(    "{place}",     "principal's office");
 
-    console.log("story is")
+    console.log("story is: " + story);
 }
 
 function updateStory() {
