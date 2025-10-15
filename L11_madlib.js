@@ -23,8 +23,8 @@ function setup() {
     inputVerb = createInput("e.g. jump");
     inputVerb.position(width/2, 80);
 
-    inputVerb = createInput("e.g. jump");
-    inputVerb.position(width/2, 80);
+    inputAdverb = createInput("e.g. jump");
+    inputAdverb.position(width/2, 80);
 
     inputplace = createInput("e.g. jump");
     inputplace.position(width/2, 80);
