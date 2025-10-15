@@ -45,6 +45,7 @@ function setup() {
     ]; // array of values
 
     let selection = random(templates);
+    console.log("selection: " + selection);
 }
 
 function updateStory() {
