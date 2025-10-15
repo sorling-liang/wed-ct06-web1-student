@@ -48,6 +48,7 @@ function setup() {
     console.log("selection: " + selection); // + string concatenation
 
     story = selection.replace("{adjective}", "tall");
+    story = story.replace(    "{noun}",     "principal's office");
     story = story.replace(    "{place}",     "principal's office");
 }
 
