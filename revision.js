@@ -9,7 +9,7 @@ let names = [
 ];
 
 function setup() {
-    createCanvas(600,400);
+    createCanvas(600,600);
     background("indigo");
 
     fill("white");
@@ -17,7 +17,7 @@ function setup() {
     let ypos = 100;
     for (let index=0; index<names.length; index++) {
         text(names[index], width/2, ypos);
-        ypos = ypos + 80;
+        ypos = ypos + 50;
     }
 }
 
