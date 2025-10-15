@@ -12,6 +12,8 @@ function setup() {
     createCanvas(600,400);
     background("indigo");
 
+    fill("white");
+    textSize(32);
     let ypos = 100;
     for (let index=0; index<names.length; index++) {
         text(names[index], width/2, ypos);
