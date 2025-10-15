@@ -22,10 +22,12 @@ function setup() {
 
     inputVerb = createInput("e.g. jump");
     inputVerb.position(width/2, 80);
+
     inputVerb = createInput("e.g. jump");
     inputVerb.position(width/2, 80);
-    inputVerb = createInput("e.g. jump");
-    inputVerb.position(width/2, 80);
+
+    inputplace = createInput("e.g. jump");
+    inputplace.position(width/2, 80);
 
     // i will teach create a button
     button1 = createButton("Generate Story");
