@@ -50,11 +50,11 @@ function draw() {
     fill("black");
     textAlign(RIGHT, CENTER);
     textSize(14);
-    text("Enter a noun:", width/2-20, 60);
-    text("Enter a verb:", width/2-20, 90);
+    text("Enter a noun:",       width/2-20, 60);
+    text("Enter a verb:",       width/2-20, 90);
     text("Enter an adjective:", width/2-20, 120);
-    text("Enter an adverb:", width/2-20, 150);
-    text("Enter a place:", width/2-20, 180);
+    text("Enter an adverb:",    width/2-20, 150);
+    text("Enter a place:",      width/2-20, 180);
 
     fill("white");
     noStroke();
