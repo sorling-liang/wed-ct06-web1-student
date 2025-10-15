@@ -63,6 +63,7 @@ function updateStory() {
     console.log(inputAdverb.value());
     console.log(inputPlace.value());
     
+    let selection = random(templates);
     story = selection.replace("{adjective}", inputAdjective.value());
     story = story.replace(    "{noun}",      inputNoun.value());
     story = story.replace(    "{verb}",      inputVerb.value());
