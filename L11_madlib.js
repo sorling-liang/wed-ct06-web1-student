@@ -32,7 +32,7 @@ function setup() {
     // i will teach create a button
     button1 = createButton("Generate Story");
     button1.position(width/2, 210);
-    button1.size(100, 50);
+    //button1.size(100, 50);
     button1.mousePressed(updateStory); // connection
 }
 
