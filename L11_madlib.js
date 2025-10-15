@@ -87,7 +87,7 @@ function draw() {
     fill("white");
     noStroke();
     rect(50,300,500,200,25);
-    textSize()
+    textSize(30);
     textAlign(CENTER, CENTER);
     text(story,width/2, height/2);
 }
