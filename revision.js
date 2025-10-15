@@ -5,6 +5,7 @@ function setup() {
 }
 
 function draw() {
+    background("indigo");
     circle(xpos,50,50);
     xpos = xpos +5;
 }
