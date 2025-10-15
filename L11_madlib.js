@@ -41,6 +41,7 @@ function setup() {
     templates = [
         "",
         "",
+        "",
     ]; // array of values
 }
 
