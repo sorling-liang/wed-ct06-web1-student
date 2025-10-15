@@ -48,7 +48,7 @@ function setup() {
     console.log("selection: " + selection); // + string concatenation
 
     story = selection.replace("{adjective}", "tall");
-    story = story.replace("{place}", "th")
+    story = story.replace(    "{place}", "principal's office");
 }
 
 function updateStory() {
