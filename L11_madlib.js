@@ -88,5 +88,5 @@ function draw() {
     noStroke();
     rect(50,300,500,200,25);
     textAlign(CENTER, CENTER);
-    text
+    text(story,width/2, he)
 }
