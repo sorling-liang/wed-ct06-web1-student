@@ -12,7 +12,7 @@ function setup() {
     createCanvas(600,600);
     background("indigo");
 
-    fill("white");
+    fill("white"); // text colour
     textSize(32);
     let ypos = 100;
     for (let index=0; index<names.length; index++) {
