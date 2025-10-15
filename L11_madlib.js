@@ -1,7 +1,7 @@
 // write your codes here
 let inputNoun;
 let inputVerb;
-let inputVerb;
+let inputAdjective;
 let inputAdverb;
 let inputplace;
 
