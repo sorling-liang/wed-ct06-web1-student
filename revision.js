@@ -1,6 +1,8 @@
 let xpos = 60;
 let velocity = 15;
-let 
+let name = [
+    ""
+];
 
 function setup() {
     createCanvas(600,400);
