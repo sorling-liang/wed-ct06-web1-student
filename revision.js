@@ -1,5 +1,6 @@
 let xpos = 60;
 let velocity = 15;
+let 
 
 function setup() {
     createCanvas(600,400);
@@ -7,14 +8,14 @@ function setup() {
 }
 
 function draw() {
-    background("indigo");
-    circle(xpos,50,50);
-    xpos = xpos + velocity;
+    // background("indigo");
+    // circle(xpos,50,50);
+    // xpos = xpos + velocity;
 
-    if (xpos > width) {
-        velocity = velocity * -1;
-    }
-    if (xpos < 0) {
-        velocity = velocity * -1;
-    }
+    // if (xpos > width) {
+    //     velocity = velocity * -1;
+    // }
+    // if (xpos < 0) {
+    //     velocity = velocity * -1;
+    // }
 }
