@@ -39,7 +39,7 @@ function setup() {
 
 
     templates = [
-        " {noun} ",
+        " {adj} {noun} at the {place} ",
         "",
         "",
     ]; // array of values
