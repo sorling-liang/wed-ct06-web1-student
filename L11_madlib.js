@@ -38,7 +38,7 @@ function setup() {
     button1.mousePressed(updateStory); // connection
 
 
-    templates = []; // array of value
+    templates = []; // array of values
 }
 
 function updateStory() {
