@@ -62,7 +62,7 @@ function updateStory() {
     console.log(inputAdjective.value());
     console.log(inputAdverb.value());
     console.log(inputPlace.value());
-    
+
     let selection = random(templates);
     story = selection.replace("{adjective}", inputAdjective.value());
     story = story.replace(    "{noun}",      inputNoun.value());
@@ -87,4 +87,6 @@ function draw() {
     fill("white");
     noStroke();
     rect(50,300,500,200,25);
+    textAlign(CENTER, CENTER);
+    text
 }
