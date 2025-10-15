@@ -55,4 +55,6 @@ function draw() {
     text("Enter an adjective:", width/2-20, 120);
     text("Enter an adverb:", width/2-20, 150);
     text("Enter a place:", width/2-20, 180);
+
+    fill("")
 }
