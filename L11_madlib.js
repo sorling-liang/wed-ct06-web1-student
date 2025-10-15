@@ -3,7 +3,7 @@ let inputNoun;
 let inputVerb;
 let inputAdjective;
 let inputAdverb;
-let inputplace;
+let inputPlace;
 
 let button1;
 let story = "long long long time ago...";
@@ -26,8 +26,8 @@ function setup() {
     inputAdverb = createInput("e.g. loudly");
     inputAdverb.position(width/2, 140);
 
-    inputplace = createInput("e.g. Ang Mo Kio");
-    inputplace.position(width/2, 170);
+    inputPlace = createInput("e.g. Ang Mo Kio");
+    inputPlace.position(width/2, 170);
 
     // i will teach create a button
     button1 = createButton("Generate Story");
