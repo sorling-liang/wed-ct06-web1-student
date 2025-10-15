@@ -11,6 +11,10 @@ let names = [
 function setup() {
     createCanvas(600,400);
     background("indigo");
+
+    for (let index=0; index<names.length; index++) {
+        
+    }
 }
 
 function draw() {
