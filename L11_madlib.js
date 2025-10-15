@@ -40,7 +40,7 @@ function setup() {
 
     templates = [
         "The {adj} {noun} is {verb} {adverb} at the {place}.",
-        "One day, ",
+        "One day, a {adj} {noun}",
         "",
     ]; // array of values
 }
