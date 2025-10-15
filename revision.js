@@ -5,7 +5,8 @@ let names = [
     "winston",
     "darissa",
     "guhaan",
-    "natalie"
+    "natalie",
+    "tommy"
 ];
 
 function setup() {
