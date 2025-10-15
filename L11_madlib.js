@@ -57,5 +57,6 @@ function draw() {
     text("Enter a place:", width/2-20, 180);
 
     fill("white");
-    rect(50,300,500,200,15);
+    noStroke();
+    rect(50,300,500,200,25);
 }
