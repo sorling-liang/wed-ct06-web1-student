@@ -23,10 +23,10 @@ function setup() {
     inputAdjective = createInput("e.g. tall");
     inputAdjective.position(width/2, 110);
 
-    inputAdverb = createInput("e.g. ");
+    inputAdverb = createInput("e.g. loudly");
     inputAdverb.position(width/2, 140);
 
-    inputplace = createInput("e.g. jump");
+    inputplace = createInput("e.g. Ang Mo Kio");
     inputplace.position(width/2, 170);
 
     // i will teach create a button
