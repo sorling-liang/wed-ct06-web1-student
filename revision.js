@@ -8,7 +8,9 @@ function setup(){
     fill('limegreen');
 }
 
+// repeat 60 times per one second
 function draw() {
-    
+
 }
+
 // question 2
