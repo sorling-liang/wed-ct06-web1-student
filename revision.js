@@ -3,6 +3,7 @@ let posX, xSpeed;
 
 function setup(){
     createCanvas(600, 400);
+    background();
     posX = width/ 2;
     xSpeed = 5;
     fill('limegreen');
