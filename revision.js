@@ -1,6 +1,5 @@
 // question 1
 let posX, xSpeed;
-let lightblue = '"skyblue"'; // string value must be in quotation marks
 
 function setup() {
     createCanvas(600, 400);
@@ -16,9 +15,7 @@ function draw() {
     fill('limegreen');
     circle(posX, height/2, 50);
     posX = posX + xSpeed;
-    textSize(40);
-    fill("black");
-    text(lightblue, 200, 200);
+    
 }
 
 // question 2
