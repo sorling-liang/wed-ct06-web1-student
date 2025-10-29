@@ -28,3 +28,7 @@ function setup(){
     // Task: set font size to 20 using textSize
     yPos = 100;
 }
+
+function draw() {
+    
+}
