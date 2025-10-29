@@ -22,7 +22,7 @@ let pokemons = ["Pikachu","Raichu","Bulbasaur","Mewtwo","Charizard"];
 let yPos;
 
 function setup(){
-    createCanvas(200, 300);
+    createCanvas(200, 1300);
     background("black");
 
     fill("pink");
