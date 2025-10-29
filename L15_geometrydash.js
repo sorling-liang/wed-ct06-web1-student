@@ -9,4 +9,10 @@
 // dont have clones
 // dont have broadcast
 
-function setup()
+function setup() {
+
+}
+
+function draw() {
+
+}
