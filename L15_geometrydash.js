@@ -24,7 +24,7 @@ function draw() {
     rect(width/2, height/2, 50, 50);
 
     //drawSpike(840, 880, 600, 670); 
-    drawSpike(450, 550, 550, 675);
+    //drawSpike(450, 550, 550, 675);
 }
 
 function drawSpike(x1, x2, y1, y2) {
