@@ -24,7 +24,7 @@ function draw() {
     rect(width/2, height/2, 50, 50);
 }
 
-function drawSpike() {
+function drawSpike(x1, x2, y1, y2) {
     // probably green colour
     // triangle()
 }
