@@ -3,7 +3,7 @@ let posX, xSpeed;
 
 function setup() {
     createCanvas(600, 400);
-    background(200);
+    
     posX = width/ 2;
     xSpeed = 5;
 
@@ -11,6 +11,7 @@ function setup() {
 
 // repeat 60 times per one second
 function draw() {
+    background(200);
     fill('limegreen');
     circle(posX, height/2, 50);
     posX = posX + 50;
