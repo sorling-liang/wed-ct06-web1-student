@@ -1,5 +1,6 @@
 // question 1
 let posX, xSpeed;
+let lightblue = "skyblue";
 
 function setup() {
     createCanvas(600, 400);
