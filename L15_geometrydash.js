@@ -21,5 +21,5 @@ function draw() {
 
     // draw player
     fill("blue");
-    rect(width)
+    rect(width/2, height/2, 50, 50);
 }
