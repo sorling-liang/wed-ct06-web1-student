@@ -36,7 +36,7 @@ function setup(){
 
 // forever loop
 function draw() {
-for(let index=0; index< pokemons.length; index++) {
+    for(let index=0; index< pokemons.length; index++) {
         text(pokemons[index], width/2, yPos);
         yPos = yPos + 35;
     }
