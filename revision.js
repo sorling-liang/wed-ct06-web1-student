@@ -24,13 +24,14 @@ let yPos;
 function setup(){
     createCanvas(200, 300);
     background("black");
-    
+
     fill("pink");
     // Task: Align the text to the center using textAlign
     textAlign(CENTER, CENTER);
     // Task: set font size to 20 using textSize
     textSize(20);
     yPos = 100;
+    text("hello", 50,50);
 }
 
 // forever loop
