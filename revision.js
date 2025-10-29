@@ -6,8 +6,9 @@ function setup(){
     background(200);
     posX = width/ 2;
     xSpeed = 5;
-    circle(50,50,50);
     fill('limegreen');
+    circle(50,50,50);
+    
 }
 
 // repeat 60 times per one second
