@@ -6,14 +6,14 @@ function setup() {
     background(200);
     posX = width/ 2;
     xSpeed = 5;
-    fill('limegreen');
-    circle(width/2,height/2,50);
-    posX = posX + 50;
+
 }
 
 // repeat 60 times per one second
 function draw() {
-
+    fill('limegreen');
+    circle(width/2,height/2,50);
+    posX = posX + 50;
 }
 
 // question 2
