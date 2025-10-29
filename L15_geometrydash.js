@@ -18,4 +18,6 @@ function draw() {
     background("black");
     fill("red");
     rect(0, 675, 1000, 25); // floor
+
+    // draw player
 }
