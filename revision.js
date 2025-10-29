@@ -32,7 +32,7 @@ function setup(){
     textSize(20);
     yPos = 100;
     for(let index=0; index< pokemons.length; index++) {
-        text(pokemons[0], width/2, ypos);
+        text(pokemons[0], width/2, yPos);
     }
 }
 
