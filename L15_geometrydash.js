@@ -31,5 +31,5 @@ function drawSpike(x1, x2, y1, y2) {
     // triangle()
     fill("green");
     let x3 = (x1 + x2) /2;
-    triangle(x1, y2, x2, y2, x3, y1)
+    triangle(x1, y2, x2, y2, x3, y1);
 }
