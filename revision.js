@@ -8,7 +8,6 @@ function setup(){
     xSpeed = 5;
     fill('limegreen');
     circle(width/2,height/2,50);
-    
 }
 
 // repeat 60 times per one second
