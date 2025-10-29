@@ -31,7 +31,9 @@ function setup(){
     // Task: set font size to 20 using textSize
     textSize(20);
     yPos = 100;
-    text(pokemons[0], width/2, 50);
+    for(let index=0; index< pokemons.length; index++) {
+        text(pokemons[0], width/2, ypos);
+    }
 }
 
 // forever loop
