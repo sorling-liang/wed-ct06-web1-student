@@ -26,7 +26,7 @@ function draw() {
     drawSpike(840, 880, 600, 670);
 }
 
-function drawSpike(x1, x2, y1, y2) {
+function drawSpike(apple1, apple2, orange1, orange2) {
     // probably green colour
     // triangle()
     fill("lime");
