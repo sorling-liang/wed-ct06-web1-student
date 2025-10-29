@@ -16,5 +16,6 @@ function setup() {
 
 function draw() {
     background("black");
-    fill("")
+    fill("red");
+    rect(0, 675,)
 }
