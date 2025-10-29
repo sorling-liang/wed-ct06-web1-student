@@ -1,6 +1,6 @@
 // question 1
 let posX, xSpeed;
-let lightblue = "skyblue";
+let lightblue = "skyblue"; // string value must be in quotation marks
 
 function setup() {
     createCanvas(600, 400);
