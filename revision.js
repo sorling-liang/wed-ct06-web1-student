@@ -18,7 +18,7 @@ function draw() {
 }
 */
 // question 2
-let pokemons = ["Pikachu","Raichu","Bulbasaur","Mewtwo","Charizard",""];
+let pokemons = ["Pikachu","Raichu","Bulbasaur","Mewtwo","Charizard","Snorlax"];
 let yPos;
 
 function setup(){
