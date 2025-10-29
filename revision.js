@@ -11,7 +11,7 @@ function setup() {
 
 // repeat 60 times per one second
 function draw() {
-    background(200);
+    background("blue");
     fill('limegreen');
     circle(posX, height/2, 50);
     posX = posX + xSpeed;
