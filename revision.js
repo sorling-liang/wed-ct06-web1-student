@@ -12,7 +12,7 @@ function setup() {
 // repeat 60 times per one second
 function draw() {
     fill('limegreen');
-    circle(width/2,height/2,50);
+    circle(posX, height/2, 50);
     posX = posX + 50;
 }
 
