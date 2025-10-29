@@ -16,6 +16,8 @@ function draw() {
     fill('limegreen');
     circle(posX, height/2, 50);
     posX = posX + xSpeed;
+    textSize(40);
+    fill("black");
     text(lightblue, 200, 200);
 }
 
