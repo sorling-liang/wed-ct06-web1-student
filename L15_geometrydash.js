@@ -25,5 +25,5 @@ function draw() {
 }
 
 function drawSpike() {
-    
+    // probably green colour
 }
