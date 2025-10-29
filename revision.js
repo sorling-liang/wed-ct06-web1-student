@@ -29,6 +29,7 @@ function setup(){
     yPos = 100;
 }
 
+// forever loop
 function draw() {
-    
+
 }
