@@ -8,3 +8,5 @@
 // dont have collisions
 // dont have clones
 // dont have broadcast
+
+function setup()
