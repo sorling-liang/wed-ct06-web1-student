@@ -3,10 +3,8 @@ let posX, xSpeed;
 
 function setup() {
     createCanvas(600, 400);
-    
     posX = width/ 2;
     xSpeed = 5;
-
 }
 
 // repeat 60 times per one second
