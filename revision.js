@@ -30,12 +30,13 @@ function setup(){
     textAlign(CENTER, CENTER);
     // Task: set font size to 20 using textSize
     textSize(20);
-    yPos = 100;
+    
     
 }
 
 // forever loop
 function draw() {
+    yPos = 100;
     for(let index=0; index< pokemons.length; index++) {
         text(pokemons[index], width/2, yPos);
         yPos = yPos + 35;
