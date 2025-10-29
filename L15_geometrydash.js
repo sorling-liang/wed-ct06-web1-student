@@ -29,4 +29,6 @@ function draw() {
 function drawSpike(x1, x2, y1, y2) {
     // probably green colour
     // triangle()
+    fill("green");
+    triangle()
 }
